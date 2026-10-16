@@ -6,6 +6,10 @@ A Windows companion for finding Nexus mods, organising downloads, inspecting exi
 
 Choose the **Modlane-x.y.z-x64.exe** installer for normal use. The ZIP is a portable copy. The `.modlane-update` file and `modlane-release.json` are used by the installed app's updater.
 
+## Testing with friends
+
+See the [Windows alpha testing guide](ALPHA_TESTING.md) for installation, account/library setup and what to test. Share the latest release link above; each tester uses their own Steam games and Nexus account.
+
 ## Updating
 
 From 0.2.5 onward the update source is already included. Modlane checks for releases when opened and every six hours while open. When a newer version is available, choose **Download update**, review the changes, then **Restart & update**. Your linked games, presets, Nexus connection and chosen mod-library drive are retained. No GitHub account is needed to download or update Modlane.
