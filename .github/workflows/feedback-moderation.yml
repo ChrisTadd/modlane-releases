@@ -1,0 +1,33 @@
+name: Keep feedback useful
+on:
+  issues:
+    types: [opened]
+permissions:
+  contents: read
+  issues: write
+jobs:
+  moderate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8
+        with:
+          script: |
+            function reason(issue,previous,now=Date.now()){
+             const DAY=86400000,normal=value=>String(value||'').toLowerCase().replace(/\s+/g,' ').trim(),before=previous.filter(x=>!x.pull_request&&x.number<issue.number&&x.user?.login===issue.user?.login),recent=before.filter(x=>now-Date.parse(x.created_at)<DAY);
+             if(before.some(x=>now-Date.parse(x.created_at)<7*DAY&&normal(x.title)===normal(issue.title)&&normal(x.body)===normal(issue.body)))return 'Duplicate report: please continue on the original issue.';
+             if(recent.length>=3)return 'Daily limit reached: please use existing reports or wait until the rolling 24-hour window clears.';
+             if(recent.some(x=>now-Date.parse(x.created_at)<600000))return 'Reports are limited to one every ten minutes. Please continue on an existing report or wait before creating another.';
+             return null;
+            }
+            const issue=context.payload.issue;
+            const previous=[];
+            for(let page=1;page<=10;page++){
+             const {data}=await github.rest.issues.listForRepo({...context.repo,creator:issue.user.login,state:'all',since:new Date(Date.now()-7*86400000).toISOString(),per_page:100,page});
+             previous.push(...data);if(data.length<100)break;
+            }
+            const message=previous.length>=1000?'Too many recent reports. Please contact the maintainer on an existing issue.':reason(issue,previous);
+            if(message){
+             await github.rest.issues.update({...context.repo,issue_number:issue.number,state:'closed',state_reason:'not_planned'});
+             await github.rest.issues.createComment({...context.repo,issue_number:issue.number,body:message+' This report was closed automatically by the feedback limits. If this is an error, the maintainer can reopen it.'});
+            }

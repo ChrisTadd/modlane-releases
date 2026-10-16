@@ -23,3 +23,7 @@ Automatic installation currently supports recognised Stardew/SMAPI content, Cybe
 Nexus free accounts still require the site's normal slow-download interaction. If verification blocks the embedded browser, use the normal-browser capture option. Modlane's Help tab explains linking games, downloads, presets and recovery.
 
 This repository hosts public release downloads and release notes. Development source is maintained separately. It contains no Nexus credentials, game saves, mod archives or private update-signing keys.
+
+## Feedback
+
+Use Modlane’s Feedback form or [the issue tracker](https://github.com/ChrisTadd/modlane-releases/issues). Sign in with your own GitHub account to submit a public report. Read the prepared form before submitting and omit credentials/private information. Reports are limited to three per rolling 24 hours and ten minutes apart; duplicate/excess reports close automatically. Reply on an existing issue when possible. Maintainers can reopen mistaken closures or block abusive accounts. To avoid inbox clutter, review the open issue queue on GitHub and choose your preferred repository notification settings instead of routing reports to a personal email address.
