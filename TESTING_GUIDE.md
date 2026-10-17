@@ -1,16 +1,22 @@
-# Modlane 0.3.1 — current tester guide
+# Modlane 0.3.2 — current tester guide
 
 17 October 2026 · Windows x64 testing beta
 
 ## Skyrim first: small real-game acceptance
 
-Follow [SKYRIM_SUPPORT.md](SKYRIM_SUPPORT.md) in order: original-game baseline → one loose-file mod → one plugin/dependency → matching SKSE-dependent mod → XML installer → preset save/configuration and vanilla restoration. Game Setup lists support and unresolved requirements. Launch Modded automatically prepares and launches after passing checks; do not begin with a large collection or existing modded save.
+Follow [SKYRIM_SUPPORT.md](SKYRIM_SUPPORT.md) in order: original-game baseline → one loose-file mod → one plugin/dependency → matching SKSE-dependent mod → XML installer → preset save/configuration and vanilla restoration. Game Setup shows the next relevant step or Ready to play; use ? for the guide and More options for advanced settings. Launch Modded automatically prepares and launches after passing checks; do not begin with a large collection or existing modded save.
 
 Developer tests use isolated fixtures and dummy programs, not your installed Skyrim. Do not test BG3/Elden Ring mutation or launch. Full LOOT metadata, generated patches/tools, uncommon scripted installers, non-SKSE root injectors and separate overhauls remain unimplemented. Native/external confirmations are clearly distinguished from automatic detection.
 
+## Simplified Skyrim setup
+
+Open Game Setup with the preset you want to use. Check that the first screen is easy to understand: Add a mod, a short step with one remedy, or Ready to play. Only selected mods should affect requirements. Other steps and More options should start closed. The ? should explain the screen and open the expanded guide.
+
+Your older saved USSEP and Alternate Start downloads should prepare automatically when checking Default; their downloads stay saved. If further requirements are missing, follow the specific next step. Leaving out an unsupported download keeps the archive. Change presets/add a requirement and confirm the status rechecks. Advanced diagnostics, save options and vanilla starting-state confirmation remain under More options. Update and launch are your choices.
+
 ## Update and retain your setup
 
-Settings → App updates → Check for updates → Download update → review → Restart & update. Finish or cancel transfers first. Confirm 0.3.1 opens with your linked games, Nexus connection, library drive, favourites, presets and saved mods. The developer does not apply updates to your installed copy. Portable copies use the new portable ZIP.
+Settings → App updates → Check for updates → Download update → review → Restart & update. Finish or cancel transfers first. Confirm 0.3.2 opens with your linked games, Nexus connection, library drive, favourites, presets and saved mods. The developer does not apply updates to your installed copy. Portable copies use the new portable ZIP.
 
 ## Appearance, backgrounds and readable text
 

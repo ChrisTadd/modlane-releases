@@ -37,3 +37,7 @@ Start with a fresh test character and a small preset. Game Setup shows runtime, 
 ## Easier preset editing (0.3.1)
 
 Game → Presets shows **In this preset** and **Inactive**. Use Add/Remove to choose from downloads for this game. New empty preset starts clean; Rename edits a custom name and Selected preset switches setups. Default collects downloads automatically and keeps its name. Files needing setup remain visible with help. Edits do not apply/uninstall files or delete downloads; apply or launch when ready. Share/import controls are below the lists and Preset help is at the top.
+
+## Skyrim setup made simpler (0.3.2)
+
+Game Setup shows the next step for your selected preset, or Ready to play. Follow its main button. Only needed components appear; other steps and More options stay collapsed. Use ? for the optional expanded guide. Older selected downloads retry automatically in the library; unsupported files still pause launch and can be left out without deleting them. Modlane always checks again before changing the game. Real-game testing should begin with a small preset and a fresh test save.
