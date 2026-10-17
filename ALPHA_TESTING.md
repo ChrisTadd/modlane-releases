@@ -26,4 +26,9 @@ Long feedback reports use an explicit Copy report & open GitHub step. This repla
 
 ## Default setup (0.2.12)
 
-Each game opens with Default selected. Saved mods seed it once and new successful downloads/prepared imports collect automatically. Inspect Presets to see selected archives and files needing setup. Pending setup/review and ambiguous versions block apply/launch/share; exclude an item to keep it saved without including it. Custom and pinned presets are preserved. Downloads never change game files. Launch Modded retains requirement/conflict review. Read-only/unsupported games have collection only; full Skyrim SE setup is the next development phase.
+Each game opens with Default selected. Saved mods seed it once and new successful downloads/prepared imports collect automatically. Inspect Presets to see selected archives and files needing setup. Pending setup/review and ambiguous versions block apply/launch/share; exclude an item to keep it saved without including it. Custom and pinned presets are preserved. Downloads never change game files. Launch Modded retains requirement/conflict review. Read-only/unsupported games have collection only; Skyrim now uses Game Setup and automatically proceeds after passing supported launch checks; advanced integrations remain unfinished.
+
+
+## Skyrim 0.3.0 testing
+
+Start with a fresh test character and a small preset. Game Setup shows runtime, missing requirements, SKSE and supported installation choices. Launch Modded checks and prepares the selected preset automatically when ready. Use a separate new save; existing saves are not moved or converted. Verify one loose-file mod, one plugin and one SKSE-dependent mod before a large collection. See SKYRIM_SUPPORT.md for the detailed sequence and current limits. This is developer-verified support awaiting real-game acceptance; full LOOT rules, generated tool outputs and separate overhaul launchers are not implemented.

@@ -18,7 +18,7 @@ For version 0.2.4, open **Settings → App updates → Release source and manual
 
 ## Testing beta
 
-Automatic installation currently supports recognised Stardew/SMAPI content, Cyberpunk archive/framework layouts, and basic Skyrim loose Data archives. Other Nexus-listed Steam games support browsing, downloads and basic detection; additional installation formats need dedicated support. Baldur's Gate 3 and Elden Ring are detection only. Detection cannot guarantee that every existing modification or conflict has been identified.
+Automatic installation currently supports recognised Stardew/SMAPI content, Cyberpunk archive/framework layouts, and supported Skyrim plugin/SKSE/XML-installer presets. Other Nexus-listed Steam games support browsing, downloads and basic detection; additional installation formats need dedicated support. Skyrim Game Setup checks requirements, handles matching SKSE and supported installation choices, prepares plugin order and separate new-save folders, then Launch Modded uses the correct route. Read the [Skyrim support and first tests](SKYRIM_SUPPORT.md) before testing; full LOOT rules, external generators/root injectors and separate overhaul launchers remain unfinished. Baldur's Gate 3 and Elden Ring are detection only. Detection cannot guarantee that every existing modification or conflict has been identified.
 
 Nexus free accounts still require the site's normal slow-download interaction. If verification blocks the embedded browser, use the normal-browser capture option. Modlane's Help tab explains linking games, downloads, presets and recovery.
 
