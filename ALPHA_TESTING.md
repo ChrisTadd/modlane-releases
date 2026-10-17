@@ -23,3 +23,7 @@ Settings → Appearance & readability has four themes (dark by default), 100/125
 Use Feedback near the version or in Settings to prepare a public GitHub report, then review and submit using your own GitHub account. No account is needed to install/update Modlane, but GitHub requires one to post feedback. Do not include personal data or credentials; no logs/account details are attached automatically. App limits are three report openings per rolling 24 hours, ten minutes apart, with duplicate checks; repository moderation also closes excess/duplicate reports. These discourage spam but cannot prevent deliberate direct GitHub posting. Continue discussions on existing reports.
 
 Long feedback reports use an explicit Copy report & open GitHub step. This replaces the clipboard with the complete report; paste it into the GitHub description before submitting. No text is silently truncated.
+
+## Default setup (0.2.12)
+
+Each game opens with Default selected. Saved mods seed it once and new successful downloads/prepared imports collect automatically. Inspect Presets to see selected archives and files needing setup. Pending setup/review and ambiguous versions block apply/launch/share; exclude an item to keep it saved without including it. Custom and pinned presets are preserved. Downloads never change game files. Launch Modded retains requirement/conflict review. Read-only/unsupported games have collection only; full Skyrim SE setup is the next development phase.
