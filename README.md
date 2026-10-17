@@ -28,6 +28,8 @@ Presets shows **In this preset** and **Inactive**, with one-click Add/Remove, **
 
 Skyrim’s **Game Setup** now shows **Ready to play** or the next relevant step with its main action. Other steps and advanced options start collapsed; **?** opens the optional guide. Only requirements for selected mods appear. Older selected downloads retry automatically in the library; unsupported files still pause launch. See [Skyrim support and testing](SKYRIM_SUPPORT.md).
 
+Required Skyrim Creation content uses read-only file detection. Already-installed Saints & Seducers, Rare Curios, Fishing and Survival Mode no longer need a manual confirmation. Missing recognised content has an in-game tutorial, **Launch Vanilla** and an optional full Help guide. Quit Skyrim and **Check setup** afterwards. See [Skyrim support](SKYRIM_SUPPORT.md) for the tested scope.
+
 ## Feedback
 
 Use Modlane’s Feedback form or [the issue tracker](https://github.com/ChrisTadd/modlane-releases/issues). Sign in with your own GitHub account to submit a public report. Read the prepared form before submitting and omit credentials/private information. Reports are limited to three per rolling 24 hours and ten minutes apart; duplicate/excess reports close automatically. Reply on an existing issue when possible. Maintainers can reopen mistaken closures or block abusive accounts. To avoid inbox clutter, review the open issue queue on GitHub and choose your preferred repository notification settings instead of routing reports to a personal email address.

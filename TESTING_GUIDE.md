@@ -1,4 +1,4 @@
-# Modlane 0.3.2 — current tester guide
+# Modlane 0.3.3 — current tester guide
 
 17 October 2026 · Windows x64 testing beta
 
@@ -14,9 +14,15 @@ Open Game Setup with the preset you want to use. Check that the first screen is 
 
 Your older saved USSEP and Alternate Start downloads should prepare automatically when checking Default; their downloads stay saved. If further requirements are missing, follow the specific next step. Leaving out an unsupported download keeps the archive. Change presets/add a requirement and confirm the status rechecks. Advanced diagnostics, save options and vanilla starting-state confirmation remain under More options. Update and launch are your choices.
 
+## Creation requirements and names
+
+Saints & Seducers should display normally, including in dialogs. If its known plugin and archive are already installed, Check setup should recognise them without a download or manual completion. A genuinely missing recognised Creation offers Show how → Launch Vanilla, and Full guide opens the in-game instructions. If needed, explicitly confirm the clean starting installation; Modlane restores only its managed files and still stops on external mods or unsafe changes. Stay at Skyrim’s main menu → Creations, download the required content, quit fully and Check setup again. You do not need to load a save or buy the Anniversary Upgrade for the four included free Creations.
+
+Use the optional Creation content guide for missing PC files, account/download issues and publisher sources. Developer tests simulate game content with fixtures and launch only a dummy executable; real in-game menus remain a lead-tester check. Do not remove existing real content just to trigger this test.
+
 ## Update and retain your setup
 
-Settings → App updates → Check for updates → Download update → review → Restart & update. Finish or cancel transfers first. Confirm 0.3.2 opens with your linked games, Nexus connection, library drive, favourites, presets and saved mods. The developer does not apply updates to your installed copy. Portable copies use the new portable ZIP.
+Settings → App updates → Check for updates → Download update → review → Restart & update. Finish or cancel transfers first. Confirm 0.3.3 opens with your linked games, Nexus connection, library drive, favourites, presets and saved mods. The developer does not apply updates to your installed copy. Portable copies use the new portable ZIP.
 
 ## Appearance, backgrounds and readable text
 

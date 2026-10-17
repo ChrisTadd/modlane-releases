@@ -1,4 +1,4 @@
-# Skyrim Special Edition — 0.3.2 support and lead testing
+# Skyrim Special Edition — 0.3.3 support and lead testing
 
 17 October 2026. Target: Steam Skyrim Special Edition on Windows x64. Developer fixtures are not real-game acceptance. The user's existing BG3 and Elden Ring installations remain protected read-only.
 
@@ -27,6 +27,12 @@ Downloading never deploys files. Supported setup applies only after checks pass.
 - Separate new-save folders per preset via Skyrim.ini, created before launch. Existing saves are not moved or converted. Original plugin/INI bytes are retained for restoration; unrelated INI edits are preserved when restoring the save-path key. Graphics preferences and all arbitrary game/tool configuration are not yet fully isolated per preset.
 - Game-root and known user-configuration operations share the deployment journal, backup, rollback and persisted recovery. User-edited plugin lists pause switching; **More options → Advanced tools → Review changed plugin lists** previews restoration, backs up edits and restores the saved managed lists. External game files are not adopted or overwritten.
 - **Game Setup** automatically retries selected older downloads once per app version; More options → Retry selected downloads permits an explicit retry. Exclusions, update reviews and shared-preset hashes remain respected. BashTags/.modgroups and bounded extended TES4 metadata are supported; embedded documentation stays in the archive.
+
+## Creation content and in-game setup
+
+Game Setup recognises the canonical plugin/archive pairs for Saints & Seducers, Rare Curios, Fishing and Survival Mode, including old encoded Nexus expansion labels. These are included free with updated Special Edition; the app checks existing files before asking for a download. Dawnguard/Hearthfire/Dragonborn have base-game content checks. Detection is file evidence, not an ownership or complete archive-integrity check. Unmapped content still needs its own tested identity/recipe; no complete Creation catalogue is claimed.
+
+For genuinely missing recognised Creations, Show how explains Skyrim’s main-menu Creations route and offers Launch Vanilla. The optional Help → Skyrim Creation content guide covers sign-in, downloading, included PC files/Steam repair and returning to Check setup. Manual I completed setup cannot override missing recognised files. Vanilla setup still requires a declared clean starting installation and checks for external mods; only tracked Modlane files can be restored automatically. Do not load a save merely to access Creations. Other game integrations must research their own in-game/setup quirks before exposing a remedy.
 
 ## Remaining integrations and genuine constraints
 

@@ -41,3 +41,7 @@ Game → Presets shows **In this preset** and **Inactive**. Use Add/Remove to ch
 ## Skyrim setup made simpler (0.3.2)
 
 Game Setup shows the next step for your selected preset, or Ready to play. Follow its main button. Only needed components appear; other steps and More options stay collapsed. Use ? for the optional expanded guide. Older selected downloads retry automatically in the library; unsupported files still pause launch and can be left out without deleting them. Modlane always checks again before changing the game. Real-game testing should begin with a small preset and a fresh test save.
+
+## Creation requirements (0.3.3)
+
+Skyrim’s included Creation content is detected from its known files. Saints & Seducers should appear with a normal ampersand and no false missing warning when installed. For missing content, Game Setup offers the in-game steps and Launch Vanilla; Help has the full guide. Quit Skyrim and Check setup afterwards. Do not delete installed content to trigger a test. Creation ownership/downloads use your own Bethesda account and platform.
