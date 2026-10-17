@@ -32,3 +32,8 @@ Each game opens with Default selected. Saved mods seed it once and new successfu
 ## Skyrim 0.3.0 testing
 
 Start with a fresh test character and a small preset. Game Setup shows runtime, missing requirements, SKSE and supported installation choices. Launch Modded checks and prepares the selected preset automatically when ready. Use a separate new save; existing saves are not moved or converted. Verify one loose-file mod, one plugin and one SKSE-dependent mod before a large collection. See SKYRIM_SUPPORT.md for the detailed sequence and current limits. This is developer-verified support awaiting real-game acceptance; full LOOT rules, generated tool outputs and separate overhaul launchers are not implemented.
+
+
+## Easier preset editing (0.3.1)
+
+Game → Presets shows **In this preset** and **Inactive**. Use Add/Remove to choose from downloads for this game. New empty preset starts clean; Rename edits a custom name and Selected preset switches setups. Default collects downloads automatically and keeps its name. Files needing setup remain visible with help. Edits do not apply/uninstall files or delete downloads; apply or launch when ready. Share/import controls are below the lists and Preset help is at the top.

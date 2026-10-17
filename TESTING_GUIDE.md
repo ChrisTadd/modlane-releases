@@ -1,4 +1,4 @@
-# Modlane 0.3.0 — current tester guide
+# Modlane 0.3.1 — current tester guide
 
 17 October 2026 · Windows x64 testing beta
 
@@ -10,7 +10,7 @@ Developer tests use isolated fixtures and dummy programs, not your installed Sky
 
 ## Update and retain your setup
 
-Settings → App updates → Check for updates → Download update → review → Restart & update. Finish or cancel transfers first. Confirm 0.3.0 opens with your linked games, Nexus connection, library drive, favourites, presets and saved mods. The developer does not apply updates to your installed copy. Portable copies use the new portable ZIP.
+Settings → App updates → Check for updates → Download update → review → Restart & update. Finish or cancel transfers first. Confirm 0.3.1 opens with your linked games, Nexus connection, library drive, favourites, presets and saved mods. The developer does not apply updates to your installed copy. Portable copies use the new portable ZIP.
 
 ## Appearance, backgrounds and readable text
 
@@ -31,7 +31,7 @@ Use Feedback near the version, or Settings → Feedback. Choose Bug/Improvement/
 
 App limits: three report openings per rolling 24 hours, ten minutes apart, identical reports blocked for seven days. Failed browser openings restore the allowance. Repository moderation also closes duplicate/excess reports, counting closed reports too. Local limits cannot prevent deliberate direct GitHub posting; maintainers can block abusive accounts. Continue on an existing report where possible.
 
-Friends use the public latest release → Assets → Modlane-0.3.0-x64.exe. No GitHub account/payment is needed to install; an account is needed to post feedback. Each friend uses their own games and Nexus account. See ALPHA_TESTING.md.
+Friends use the public latest release → Assets → Modlane-0.3.1-x64.exe. No GitHub account/payment is needed to install; an account is needed to post feedback. Each friend uses their own games and Nexus account. See ALPHA_TESTING.md.
 
 ## Downloads and My Mods
 
@@ -69,3 +69,8 @@ Long feedback reports use an explicit Copy report & open GitHub step. This repla
 ## Default setup (0.3.0)
 
 Each game opens with Default selected. Saved mods seed it once and new successful downloads/prepared imports collect automatically. Inspect Presets to see selected archives and files needing setup. Pending setup/review and ambiguous versions block apply/launch/share; exclude an item to keep it saved without including it. Custom and pinned presets are preserved. Downloads never change game files. Launch Modded retains requirement/conflict review. Read-only/unsupported games have collection only; Skyrim uses Game Setup and automatically proceeds after passing supported launch checks; advanced integrations remain unfinished.
+
+
+## Preset selection (0.3.1)
+
+Open a supported game → Presets. In this preset lists selected downloads; Inactive lists other saved/prepared mods for the game. Use Add/Remove; removing only changes that selection. New empty preset starts with zero mods and no copied installer options. Rename custom presets and switch with Selected preset. Default keeps its automatic name/collection role. Shared presets stay pinned; missing exact archives appear with View downloads. Needs setup files stay visible with setup help. Share or import presets is below the lists; Preset help is at the top. Check switching/add/remove/rename and restart persistence before applying. Editing never changes the currently installed game; Review & apply or Launch Modded does that after checks.

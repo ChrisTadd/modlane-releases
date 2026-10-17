@@ -24,6 +24,8 @@ Nexus free accounts still require the site's normal slow-download interaction. I
 
 This repository hosts public release downloads and release notes. Development source is maintained separately. It contains no Nexus credentials, game saves, mod archives or private update-signing keys.
 
+Presets shows **In this preset** and **Inactive**, with one-click Add/Remove, **New empty preset**, custom Rename and a game-specific preset selector. Changing a selection keeps downloads and the current installation intact until you apply or launch. Preset help explains setup blockers and shared-preset restrictions.
+
 ## Feedback
 
 Use Modlane’s Feedback form or [the issue tracker](https://github.com/ChrisTadd/modlane-releases/issues). Sign in with your own GitHub account to submit a public report. Read the prepared form before submitting and omit credentials/private information. Reports are limited to three per rolling 24 hours and ten minutes apart; duplicate/excess reports close automatically. Reply on an existing issue when possible. Maintainers can reopen mistaken closures or block abusive accounts. To avoid inbox clutter, review the open issue queue on GitHub and choose your preferred repository notification settings instead of routing reports to a personal email address.
