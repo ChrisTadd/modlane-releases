@@ -49,3 +49,10 @@ Skyrim’s included Creation content is detected from its known files. Saints & 
 ## Skyrim download confirmation (0.3.4)
 
 Download in app now displays its requirements/API notice correctly, including when no extra requirements are listed. Cancel or Continue should work without a missing-function error. Continue opens the normal free-download browser. Check the saved/prepared result in My Mods and Default before setup/launch. The lead tester confirmed Alternate Start + USSEP loaded successfully; test additional mods in small steps.
+
+
+## Skyrim compatibility pilot (0.3.5)
+
+An old mod upload does not automatically mean incompatible. Game Setup now separates passing checks, uncertainty and known failures. Only affected mods need review. Confirm explicit author support or choose Test one mod: Modlane creates a separate preset with at most one uncertain package and its available checked dependencies. Use a new character, check the mod's features, quit Skyrim and report It worked or It did not work. Results are local and remembered for the same relevant setup; failures can be rechecked. Resume pending test works after restarting Modlane.
+
+Create compatible copy previews affected mods and dependents, keeps the original preset/downloads and never silently launches a reduced setup. Check the game setup again before playing. Signed reviewed guidance can be updated separately from app releases; the initial feed has no speculative mod verdicts. Passing checks cannot guarantee every feature or mod combination. See COMPATIBILITY_POLICY.md for details and the cross-game assessment criteria.

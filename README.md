@@ -33,3 +33,5 @@ Required Skyrim Creation content uses read-only file detection. Already-installe
 ## Feedback
 
 Use Modlane’s Feedback form or [the issue tracker](https://github.com/ChrisTadd/modlane-releases/issues). Sign in with your own GitHub account to submit a public report. Read the prepared form before submitting and omit credentials/private information. Reports are limited to three per rolling 24 hours and ten minutes apart; duplicate/excess reports close automatically. Reply on an existing issue when possible. Maintainers can reopen mistaken closures or block abusive accounts. To avoid inbox clutter, review the open issue queue on GitHub and choose your preferred repository notification settings instead of routing reports to a personal email address.
+
+Compatibility guidance and the Skyrim one-mod test pilot are documented in [the compatibility policy](COMPATIBILITY_POLICY.md). Old upload dates alone do not block launch.

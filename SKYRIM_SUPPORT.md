@@ -1,4 +1,4 @@
-# Skyrim Special Edition — 0.3.4 support and lead testing
+# Skyrim Special Edition — 0.3.5 support and lead testing
 
 17 October 2026. Target: Steam Skyrim Special Edition on Windows x64. Developer fixtures are not real-game acceptance. The user's existing BG3 and Elden Ring installations remain protected read-only.
 
@@ -15,10 +15,10 @@ Downloading never deploys files. Supported setup applies only after checks pass.
 
 ## Implemented capabilities
 
-- Recognised loose Data folders, BSA archives and ESP/ESM/ESL plugins; bounded TES4 header parsing for masters, flags and format. Malformed/older-format packages stop before deployment.
+- Recognised loose Data folders, BSA archives and ESP/ESM/ESL plugins; bounded TES4 header parsing for masters, flags and format. Malformed packages stop; older plugin form versions receive uncertainty review rather than a blanket rejection.
 - Plugin activation, recursive available-master inclusion, master-first ordering, cycle/missing-master and full/light-slot checks, plus saved priority among independent plugins. Official content is distinguished from ordinary Nexus requirements.
 - Official SKSE Steam archive handling, exact runtime checks, separate root/Data destinations and automatic selection of SkyrimSE.exe or skse64_loader.exe. No archive executable is run during preparation.
-- Static x64 PE/SKSE version-declaration inspection for native plugins, matching Address Library database checks and rejection of declared incompatibility. Missing static declarations require explicit author-support confirmation tied to DLL hash and runtime. Native code is never loaded into Modlane for inspection.
+- Static x64 PE/SKSE version-declaration inspection for native plugins, matching Address Library database checks and rejection of declared incompatibility. Missing static declarations offer author support review or a separate one-mod test, remembered locally for exact files/runtime/relevant requirements. Native code is never loaded into Modlane for inspection.
 - Microsoft Visual C++ x64 checks from normal/delayed native import tables and recognised Microsoft requirement links, with x64 executable metadata and file-version validation. Missing/old components block launch and link to Microsoft's installer; manual confirmations cannot bypass this check. Explicit recognised minimum versions and toolset-year baselines are checked, but dynamically loaded libraries and unspecified author minimums still require author instructions. No Windows installer is run automatically.
 - Built-in supported XML FOMOD interpretation: required files, groups, conditional visibility/types/flags, file/game/SKSE dependencies, priorities and conditional outputs. Unsupported conditions/features stop with an explanation. No additional installer application is needed.
 - Nexus requirement snapshots attached to prepared mods and checked against the selected preset/current external identities at every launch. More options → Check mod requirements again fetches fresh graphs; new downloads and reviewed updates capture their requirements again. Explicit minimum-version notes are checked where recognised. Unavailable metadata and unsupported requirements are visible; API omissions and arbitrary author prose cannot be treated as a complete compatibility database.
@@ -59,3 +59,14 @@ Use a small preset and fresh test character. Keep existing modded saves untouche
 7. **Recovery and friends:** review/back up a disposable external plugin-list edit. Share a small preset to a second PC and verify references, exact archives, installer choices and priority reproduce through that player's own downloads. Confirm native compatibility separately where static metadata is absent.
 
 Developer verification details belong in DEVELOPMENT_PLAN.md after the final build checks. No actual game launch, personal profile access for testing, installed-app update or Microsoft/runtime installer execution is part of the developer fixture tests.
+
+
+## Compatibility pilot (0.3.5)
+
+Age alone never blocks a mod. Open Game Setup → Review mods only if something needs attention. Checks passed is not a guarantee of every mod feature/combination. Confirm explicit author support or use Test one mod: one uncertain package, a separate preset/new-save folder, then quit and report whether its features worked. Other ordinary old mods do not require individual testing. Required uncertain frameworks are tested before their dependents.
+
+Successful results are reused locally for the same files, runtime and relevant tools/requirements; failures are local and retryable. Resume pending test works after restart. Create compatible copy previews exclusions and dependent mods while preserving the original. It does not silently launch a reduced setup or delete downloads. Separate test saves are not moved into the original preset automatically. Use a suitable new save when changing a mod selection.
+
+The signed online guidance starts with no speculative mod-specific verdicts; it can be updated after reviewed evidence. Local checks work offline. Known loader/format rejection, missing dependencies, conflict and ownership checks remain enforced. See COMPATIBILITY_POLICY.md for the durable policy and cross-game acceptance criteria.
+
+Priority lead tests: ordinary older mods should need no extra confirmation; an actually uncertain mod should offer author review or one-mod testing; complete/restart/resume/pass/fail/retry the test without losing the original selection; verify a passing result is reused and dependencies remain checked. Do not deliberately damage game files or remove required content to trigger errors. Report false blocks with the exact mod/file, game runtime and displayed reason through Feedback.

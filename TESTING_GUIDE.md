@@ -92,3 +92,14 @@ Each game opens with Default selected. Saved mods seed it once and new successfu
 ## Preset selection (0.3.1)
 
 Open a supported game → Presets. In this preset lists selected downloads; Inactive lists other saved/prepared mods for the game. Use Add/Remove; removing only changes that selection. New empty preset starts with zero mods and no copied installer options. Rename custom presets and switch with Selected preset. Default keeps its automatic name/collection role. Shared presets stay pinned; missing exact archives appear with View downloads. Needs setup files stay visible with setup help. Share or import presets is below the lists; Preset help is at the top. Check switching/add/remove/rename and restart persistence before applying. Editing never changes the currently installed game; Review & apply or Launch Modded does that after checks.
+
+
+## 0.3.5 compatibility checks
+
+- Ordinary older plugins/assets should launch without extra age-related prompts.
+- For a genuinely uncertain mod, review the exact file's author guidance or prepare a one-mod test. Only one uncertain package may be included; unresolved dependencies still pause it.
+- Use a new character in the separate test preset. Quit, record the actual feature result, and confirm the original preset still exists. Passing observations should be reused; failure remains local and can be rechecked.
+- Restart with a pending test and use Resume pending test. Abandoning a test should record no failure.
+- Review Create compatible copy: affected mods and their dependents should be listed before creating the copy. Original downloads and selection remain. Nothing automatically launches the reduced selection.
+- Report false blocks and unnecessary repeated confirmations with mod/file ID, game runtime and the displayed reason. Do not deliberately damage files or remove game content to trigger errors.
+- Broader game rollout awaits this Skyrim pilot; no universal compatibility guarantee or automatic community-verdict collection is claimed.
