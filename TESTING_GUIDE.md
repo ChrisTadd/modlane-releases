@@ -1,4 +1,4 @@
-# Modlane 0.3.3 — current tester guide
+# Modlane 0.3.4 — current tester guide
 
 17 October 2026 · Windows x64 testing beta
 
@@ -20,9 +20,15 @@ Saints & Seducers should display normally, including in dialogs. If its known pl
 
 Use the optional Creation content guide for missing PC files, account/download issues and publisher sources. Developer tests simulate game content with fixtures and launch only a dummy executable; real in-game menus remain a lead-tester check. Do not remove existing real content just to trigger this test.
 
+## Skyrim download-button fix (0.3.4)
+
+Open A Quality World Map or Immersive Armors → Download in app. If Nexus returns a file-level requirements notice, it should show normally with Continue download, without skyrimRequirementList errors. Cancel should leave the queue unchanged. Continue should open the normal Nexus browser; complete Slow download and check the saved/prepared result in My Mods and Default. Author/file requirements and installation compatibility still need the normal setup checks.
+
+The lead tester’s Alternate Start + USSEP Skyrim launch is confirmed working. Continue with small additions and fresh/compatible test saves; a successful download is not proof every new mod is compatible.
+
 ## Update and retain your setup
 
-Settings → App updates → Check for updates → Download update → review → Restart & update. Finish or cancel transfers first. Confirm 0.3.3 opens with your linked games, Nexus connection, library drive, favourites, presets and saved mods. The developer does not apply updates to your installed copy. Portable copies use the new portable ZIP.
+Settings → App updates → Check for updates → Download update → review → Restart & update. Finish or cancel transfers first. Confirm 0.3.4 opens with your linked games, Nexus connection, library drive, favourites, presets and saved mods. The developer does not apply updates to your installed copy. Portable copies use the new portable ZIP.
 
 ## Appearance, backgrounds and readable text
 

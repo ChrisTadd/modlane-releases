@@ -1,4 +1,4 @@
-# Skyrim Special Edition — 0.3.3 support and lead testing
+# Skyrim Special Edition — 0.3.4 support and lead testing
 
 17 October 2026. Target: Steam Skyrim Special Edition on Windows x64. Developer fixtures are not real-game acceptance. The user's existing BG3 and Elden Ring installations remain protected read-only.
 
@@ -41,6 +41,10 @@ This is the first substantial Skyrim integration, not completion of every item i
 Enderal SE is researched in the optional Help guide as a separate Steam installation; its own install/launch/mod integration is not implemented. Do not apply ordinary Skyrim presets to its folder. The [official Steam listing](https://store.steampowered.com/app/976620/Enderal_Forgotten_Stories_Special_Edition/) identifies it as a separate total conversion requiring Skyrim SE ownership.
 
 Not all requirements can be inferred from archives or Nexus metadata. Incompatible mods cannot be made compatible merely by ordering files. Accounts, site verification/download clicks, paid-content ownership and genuine preferences still require the player. SKSE and other actual game extensions cannot be replaced by Modlane's interface; the goal is to manage supported extensions without requiring users to arrange their files.
+
+## Real-game acceptance so far
+
+18 October 2026: the lead tester reported a successful Skyrim launch with Alternate Start and USSEP loaded after installing Creation content. Broader SKSE/native, installer, save-switching, vanilla restoration, sharing and arbitrary mod combinations still require real-game acceptance. The 0.3.4 fix restores the pre-download requirement prompt and is covered from the mod-card button through generated browser downloads; it does not change a mod’s own compatibility.
 
 ## Lead tester sequence
 

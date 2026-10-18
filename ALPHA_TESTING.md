@@ -45,3 +45,7 @@ Game Setup shows the next step for your selected preset, or Ready to play. Follo
 ## Creation requirements (0.3.3)
 
 Skyrim’s included Creation content is detected from its known files. Saints & Seducers should appear with a normal ampersand and no false missing warning when installed. For missing content, Game Setup offers the in-game steps and Launch Vanilla; Help has the full guide. Quit Skyrim and Check setup afterwards. Do not delete installed content to trigger a test. Creation ownership/downloads use your own Bethesda account and platform.
+
+## Skyrim download confirmation (0.3.4)
+
+Download in app now displays its requirements/API notice correctly, including when no extra requirements are listed. Cancel or Continue should work without a missing-function error. Continue opens the normal free-download browser. Check the saved/prepared result in My Mods and Default before setup/launch. The lead tester confirmed Alternate Start + USSEP loaded successfully; test additional mods in small steps.
