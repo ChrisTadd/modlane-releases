@@ -1,12 +1,12 @@
 # Compatibility policy and Skyrim pilot
 
-Approved 18 October 2026. Reassess after lead-tester acceptance before adopting for other games. GAME_SUPPORT_VISION.md §Compatibility policy is the durable product requirement; DEVELOPMENT_PLAN.md §30 tracks implementation and evidence.
+Approved 18 October 2026. Reassess after lead-tester acceptance before adopting for other games. GAME_SUPPORT_VISION.md §Compatibility policy is the durable product requirement; DEVELOPMENT_PLAN.md §§30–31 tracks implementation and evidence.
 
 ## Player experience
 
 An old upload date or old mod-version number never implies a game-version failure. Checks passed means no known version issue in the available checks, not complete feature/combination verification. Compatibility unconfirmed is distinct from Version incompatible. Update required appears only where a reviewed rule identifies a replacement. New version available remains a separate Nexus update status.
 
-Only affected selected mods require attention. Game Setup provides Review mods, optional evidence, author guidance confirmation, a one-mod test or a reviewed compatible copy. Source dates and uncertainty remain visible; avoid implying comprehensive coverage.
+Only affected selected mods require attention. Game Setup offers direct Test mod and Remove mod for one uncertain mod, or Review mods for multiple issues. The review contains only affected mods, with Test mod, Get requirements, Update mod or Remove mod beside each one. Evidence and author confirmation stay under More info. Test mod prepares AND launches the named mod automatically. Source dates and uncertainty remain visible; avoid implying comprehensive coverage.
 
 One pending test per game, at most one uncertain mod package per test. Required uncertain frameworks are tested before dependents. A package may contain multiple plugins/DLLs, so one package is not necessarily one file. The baseline contains required dependencies and matching game tools that pass available checks; unrelated preset mods stay out to improve isolation. The baseline is not proven crash-free. Every test still passes normal dependencies, conflicts, ownership and deployment checks. Missing requirements and definite loader/format rejections cannot be overridden by testing or a positive rule.
 
@@ -20,7 +20,7 @@ Skyrim checks static native declarations, SKSE runtime, plugin header/runtime co
 
 Reviewed feed positives resolve uncertainty, never concrete rejection. Sources must support the particular file/runtime; comments and report counts are not automatically promoted. Initial published feed deliberately has no speculative mod-specific verdicts. Local checks remain useful without a large database. Local user confirmations are honest observations, not automatically validated author statements.
 
-Create compatible copy previews exclusions, follows transitive plugin/Nexus/component dependencies and preserves the original. A copy can still need setup, and no reduced selection is silently launched. External manual files are flagged/protected, not automatically removed by this flow. Existing save compatibility is not inferred from the new selection.
+Remove mod edits only the chosen local setup and keeps the download. Preview transitive plugin/Nexus/component dependent removals together. Shared pinned originals use an edited local copy. The older compatible-copy API remains supported, but is no longer the novice-facing primary action. All changed selections are rechecked before launch; no reduced selection launches silently. External manual files are flagged/protected, not automatically removed by this flow. Existing save compatibility is not inferred from the new selection.
 
 ## Maintaining the signed data feed
 
@@ -33,3 +33,10 @@ The client fetches the fixed HTTPS source at most every six hours (manual refres
 ## Acceptance before extending to other games
 
 Measure ordinary-mod false blocks, prompts/tests per preset, exact-file confirmation reuse, game/tool update invalidation, dependent exclusions, retry/abandon, restart persistence and feature-testing usefulness. Confirm originals/downloads and valued playthroughs remain protected. Lead tester provides in-game observations; developer dummy launches and static tests cannot replace this. Record refinements here and in the plan, then add a game-specific adapter using this shared model.
+
+
+## Configuration and requirement remedies (0.3.6)
+
+Parsed-list-equivalent comment/formatting changes do not require recovery. Changed activation/order still stops switching and offers Fix setup or Fix & test mod directly. The hash-bound operation backs up the edited lists, restores Modlane’s last managed lists and retries the requested test. Other externally owned files remain protected. Failed preparations must not persist an unusable pending trial.
+
+Missing requirements remain associated with the owning mods, including shared requirements. Add requirement selects a suitable cached component; Download requirement retains the target local preset through the normal Nexus click/save/import path. Matching SKSE and named Creation instructions remain game-specific remedies. Only unknown external steps allow user completion confirmation; automatic component/content/runtime checks cannot be overridden. Abandoning a damaged trial records no verdict and does not require a successful file review.

@@ -56,3 +56,10 @@ Download in app now displays its requirements/API notice correctly, including wh
 An old mod upload does not automatically mean incompatible. Game Setup now separates passing checks, uncertainty and known failures. Only affected mods need review. Confirm explicit author support or choose Test one mod: Modlane creates a separate preset with at most one uncertain package and its available checked dependencies/matching tools; unrelated mods stay out. Use a new character, check the mod's features, quit Skyrim and report It worked or It did not work. Results are local and remembered for the same relevant setup; failures can be rechecked. Resume pending test works after restarting Modlane.
 
 Create compatible copy previews affected mods and dependents, keeps the original preset/downloads and never silently launches a reduced setup. Check the game setup again before playing. Signed reviewed guidance can be updated separately from app releases; the initial feed has no speculative mod verdicts. Passing checks cannot guarantee every feature or mod combination. See COMPATIBILITY_POLICY.md for details and the cross-game assessment criteria.
+
+
+## Simpler Skyrim checks (0.3.6)
+
+Apply the update yourself in Settings. Game Setup now offers Test mod and Remove mod directly for a single uncertain mod. Review mods contains only affected items. Test mod prepares and launches that mod with its required components automatically. If lists changed, Fix & test mod saves a backup and continues. Use a new character, check the features, close Skyrim and choose the result. Working mods stay out of the review.
+
+Get requirements leads to Add requirement or Download requirement. A required Nexus download joins the chosen local preset automatically. Bethesda Creations still open named in-game instructions. Remove mod leaves it out of this setup and keeps its download; dependent removals are named first. A shared original uses an edited copy. Test the A Quality World Map route and report any step whose purpose is unclear.

@@ -103,3 +103,8 @@ Open a supported game → Presets. In this preset lists selected downloads; Inac
 - Review Create compatible copy: affected mods and their dependents should be listed before creating the copy. Original downloads and selection remain. Nothing automatically launches the reduced selection.
 - Report false blocks and unnecessary repeated confirmations with mod/file ID, game runtime and the displayed reason. Do not deliberately damage files or remove game content to trigger errors.
 - Broader game rollout awaits this Skyrim pilot; no universal compatibility guarantee or automatic community-verdict collection is claimed.
+
+
+## Current focus: 0.3.6 compatibility usability
+
+Only problem mods should be shown. Test mod must prepare and launch the mod you picked without another preparation/launch step. Fix & test mod should recover changed managed mod lists with a backup, then continue. Check a new character, quit and report; Continue test must survive restarting Modlane. Missing requirements should lead straight to their add/download or specific game instructions. Remove mod keeps the archive and leaves it out of this setup, with dependent removals reviewed first. Check that passing results are reused and other presets stay intact. Do not deliberately alter real game files to trigger recovery errors.
