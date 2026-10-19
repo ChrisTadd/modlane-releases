@@ -65,6 +65,6 @@ Apply the update yourself in Settings. Game Setup now offers Test mod and Remove
 Get requirements leads to Add requirement or Download requirement. A required Nexus download joins the chosen local preset automatically. Bethesda Creations still open named in-game instructions. Remove mod leaves it out of this setup and keeps its download; dependent removals are named first. A shared original uses an edited copy. Test the A Quality World Map route and report any step whose purpose is unclear.
 
 
-## Collection setup (0.3.7)
+## Collection setup (0.3.8)
 
 After updating, open Game Setup: saved archives that older versions rejected retry automatically. Use Set up mods → Use suggested setup to apply author recommendations/defaults together and keep optional extras off. Expand the suggested settings first if desired, or Choose myself. Remaining personal choices appear one question at a time; Continue saves each answer across restart. Shared requirements are grouped for one add/download. These are installation choices, not a required game test for every mod. Launch still checks requirements and compatibility. Check a fresh test character for a substantially changed mod list; custom BodySlide generation and arbitrary external installers are still separate integrations.

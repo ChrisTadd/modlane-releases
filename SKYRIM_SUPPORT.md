@@ -79,7 +79,7 @@ Working mods no longer appear in problem dialogs. For one uncertain mod, Game Se
 Get requirements lists only missing components. Add requirement uses an appropriate saved file; Download requirement opens the required Nexus mod and attaches its successful download to the selected local setup automatically. Matching SKSE and Creation instructions retain their specific routes. Remove mod keeps the archive; a multi-mod dependent removal is named before confirmation. The lead tester should retry A Quality World Map, verify it is the sole uncertain package tested, check its visible features and confirm the ordinary setup resumes after reporting. Do not use existing valued saves for the test.
 
 
-## Larger mod lists (0.3.7)
+## Larger mod lists (0.3.8)
 
 The reported twelve entries were failed archive preparation, installation choices and a requirement, rather than twelve game tests. Game Setup now groups this work. Open it after updating: saved archives rejected by older versions retry automatically. The inspected Unread Books Glow, ELFX, Helgen Reborn and Beyond Skyrim Assets archives now prepare in isolated developer checks. UTF-16 XML, large bounded BSA files, empty installer directories, omitted destinations, supported MapMarkers/BodySlide data and optional BSL/script-source companions are handled internally.
 

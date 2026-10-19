@@ -42,6 +42,6 @@ Parsed-list-equivalent comment/formatting changes do not require recovery. Chang
 Missing requirements remain associated with the owning mods, including shared requirements. Add requirement selects a suitable cached component; Download requirement retains the target local preset through the normal Nexus click/save/import path. Matching SKSE and named Creation instructions remain game-specific remedies. Only unknown external steps allow user completion confirmation; automatic component/content/runtime checks cannot be overridden. Abandoning a damaged trial records no verdict and does not require a successful file review.
 
 
-## Installation setup is separate from compatibility testing (0.3.7)
+## Installation setup is separate from compatibility testing (0.3.8)
 
 A collection's XML choices, unsupported archive layouts and missing requirements are not a series of required gameplay tests. Batch the automatic preparation and shared requirements; offer an opt-in suggested installer policy with persistent, one-question personal choices. Static preparation success is never recorded as a successful in-game trial. Keep the one-uncertain-package limit for genuine compatibility tests and preserve all concrete runtime/dependency/ownership blockers. Evaluate the grouped setup's interaction count during lead testing before reuse in another adapter.
