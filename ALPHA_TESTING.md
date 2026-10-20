@@ -68,3 +68,7 @@ Get requirements leads to Add requirement or Download requirement. A required Ne
 ## Collection setup (0.3.8)
 
 After updating, open Game Setup: saved archives that older versions rejected retry automatically. Use Set up mods → Use suggested setup to apply author recommendations/defaults together and keep optional extras off. Expand the suggested settings first if desired, or Choose myself. Remaining personal choices appear one question at a time; Continue saves each answer across restart. Shared requirements are grouped for one add/download. These are installation choices, not a required game test for every mod. Launch still checks requirements and compatibility. Check a fresh test character for a substantially changed mod list; custom BodySlide generation and arbitrary external installers are still separate integrations.
+
+## 0.3.9: test ranked mod priority
+
+When Skyrim Game Setup asks for priority, each conflicting mod now appears once. Move your preferred mods above the others and Save priority. The highest wins shared files against every lower mod; unique files stay included. Reopen under More options → Mod priority to change it. Check persistence after restarting and confirm that closing unsaved moves leaves the old order intact. Use a fresh test character for your larger Skyrim collection. See the Skyrim support guide for cases where choosing one file cannot resolve a plugin/program conflict.
