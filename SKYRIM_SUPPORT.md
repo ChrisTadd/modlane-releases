@@ -4,6 +4,8 @@ Updated 20 October 2026. Target: Steam Skyrim Special Edition on Windows x64. De
 
 ## The player workflow
 
+Repeat launches in 0.3.11 recognise Skyrim's normal Creation-list rewrite, so it should not ask to restore an unchanged setup after each game session. Existing presets and priorities are kept. The first launch after updating builds installer recipe snapshots; later launches still fully verify deployed files and requirements but avoid rereading unused library copies. Real external mod-list changes retain a backup-and-restore approval, with Restore & launch when encountered during launch.
+
 1. Link Skyrim's installation. Run the original Steam launcher once to establish settings and a fresh test character, then close it. Confirm the clean starting state when linking, or use Game Setup → More options → Record clean starting state before applying your first preset. This records your declaration and executable identity; it does not perform Steam integrity verification.
 2. Download mods through Browse Mods, or import an archive. Default includes successful preparations. Requirements appear before an in-app file download, with Nexus links and external source links. Free downloads retain the site's required click.
 3. Open **Game Setup**. Check setup identifies the runtime and selected requirements. Get required component appears only when SKSE is needed and uses public Nexus file descriptions or the official runtime-labelled source; supported official archives are prepared automatically. A required loader is still game code, but another mod manager is unnecessary.
