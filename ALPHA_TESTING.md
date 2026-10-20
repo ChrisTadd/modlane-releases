@@ -72,3 +72,9 @@ After updating, open Game Setup: saved archives that older versions rejected ret
 ## 0.3.9: test ranked mod priority
 
 When Skyrim Game Setup asks for priority, each conflicting mod now appears once. Move your preferred mods above the others and Save priority. The highest wins shared files against every lower mod; unique files stay included. Reopen under More options → Mod priority to change it. Check persistence after restarting and confirm that closing unsaved moves leaves the old order intact. Use a fresh test character for your larger Skyrim collection. See the Skyrim support guide for cases where choosing one file cannot resolve a plugin/program conflict.
+
+## 0.3.10: Skyrim launch speed and SKSE startup
+
+Retry your selected Skyrim collection after updating. Note preparation time and check SkyUI on a fresh test save. Launch Modded now asks the official SKSE launcher to open Steam when needed; finish any Steam sign-in prompt. A fresh runtime check distinguishes actual SKSE startup from merely requesting its launcher. If the short startup warning appears, close Skyrim, finish opening/signing in to Steam, then retry from Modlane. An old log is not accepted as a new start. Existing mod choices and saves remain yours; the developer has not applied the update for you.
+
+Large installations use one verification operation and a compact recovery record. First deployment still copies changed files; an unchanged repeat avoids copying, while integrity and external-file protection remain checked. Synthetic timings are illustrative; report your actual collection's timing and any repeated warning. Do not send account profiles, keys or saves as a routine bug report.

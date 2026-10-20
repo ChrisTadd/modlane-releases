@@ -1,6 +1,6 @@
-# Skyrim Special Edition — 0.3.5 support and lead testing
+# Skyrim Special Edition — support and lead testing
 
-17 October 2026. Target: Steam Skyrim Special Edition on Windows x64. Developer fixtures are not real-game acceptance. The user's existing BG3 and Elden Ring installations remain protected read-only.
+Updated 20 October 2026. Target: Steam Skyrim Special Edition on Windows x64. Developer fixtures are not real-game acceptance. The user's existing BG3 and Elden Ring installations remain protected read-only. Later version-specific sections record refinements. See the latest public release and the alpha guide for the current test steps.
 
 ## The player workflow
 
@@ -90,3 +90,9 @@ Choose Set up mods, then Use suggested setup or Choose myself. Suggested setting
 In Game Setup, choose **Choose priority**. Each conflicting mod appears once, even if it shares hundreds of files. Use **Move up / Move down** to put your preferred mods first, then **Save priority**. The highest mod wins shared files against every mod below it. Second wins against anything lower, and so on. Files that are not shared are kept. Follow any priority guidance from the mod authors; the initial list is not a recommendation.
 
 The order saves with this preset and is included when sharing it. Reopen **Game Setup → More options → Mod priority** to change it. Close discards unsaved moves. A new or updated conflicting archive may need another review. Different versions of the same plugin/DLL/executable cannot be combined this way; remove one mod from the preset using the grouped action. Downloads stay saved. This controls file copies rather than plugin-record merging or master loading order. Launch still performs its normal checks.
+
+## Launch performance and SKSE startup (0.3.10)
+
+Launch Modded uses the matching SKSE loader with its official Steam-start option. Steam needs to finish opening and be signed in; complete account prompts in Steam itself. Modlane checks for fresh SKSE runtime initialization rather than trusting an old log or a successful launcher request. If the startup warning appears, close Skyrim, finish opening/signing in to Steam, and retry Launch Modded. The linked Help guide includes next steps and optional technical information. Do not use Steam's ordinary Play button for an SKSE-dependent setup. SkyUI's local plugin identity also triggers this requirement when Nexus identity is absent. A complete SKSE setup includes its script files.
+
+Launch now performs one full verification operation, without a separate preliminary UI pass. Matching file reads can be reused inside the operation after checking file identity/change metadata, but a new launch reads again and pre-write checks stay fresh. Unchanged files avoid copying. The full recovery plan is saved once, with small atomic progress markers; old interrupted-operation journals are still recoverable. First deployment still needs time to copy a large collection. These changes do not prove all mods work or justify changing a valuable save.
