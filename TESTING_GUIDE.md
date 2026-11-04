@@ -1,12 +1,12 @@
 # Modlane — current tester guide
 
-4 November 2026 · Modlane 0.3.13 · Windows x64 testing beta
+4 November 2026 · Modlane 0.3.14 · Windows x64 testing beta
 
-## BG3 preparation and inspection preview
+## BG3 collection and Trials preparation — 0.3.14
 
-The only quick check currently suggested is [Inspect installed setup](BG3_SUPPORT.md#inspect-your-existing-in-game-mods). The earlier preparation tests remain optional for later. Update when convenient through Settings → App updates; no subscription changes or game launch are requested. Existing Skyrim sections remain below.
+Read [the current five small checks](BG3_SUPPORT.md#current-small-test-list). Save reusable copies of installed PAKs without changing them, check dependencies, create a reviewed Trials Reloaded preset and prepare the official Script Extender in the library. Exact saved Nexus PAK matches can be added; name/version matches alone do not prove equivalence.
 
-BG3 → Game Setup → Inspect installed setup checks your existing PAKs and Public enabled-mod list without changing them. Later checks compare against the first complete reference. No immediate test is needed; when convenient, report whether the PAK-file count looks reasonable. Existing mods outside a preset stay in place. This does not block mod.io downloads.
+Account setup records player observations only. Preview moving mods aside moves nothing. Actual deployment/restoration, tool installation, launch and sharing remain locked; online mod.io prevention and gameplay are not verified. No account/subscription changes or game launch are requested for this preview. See [special setups and remaining work](BG3_SPECIAL_SETUPS.md).
 
 ## Skyrim first: small real-game acceptance
 

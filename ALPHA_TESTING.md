@@ -6,11 +6,11 @@
 4. Use your own Nexus account. An API key connection is optional/recommended; free Slow download still needs your Nexus click. Do not share another tester’s key, account profile or credential files.
 5. Later releases are available in Settings → App updates → Check for updates → Download update → Restart & update. Portable copies use the new portable ZIP.
 
-## BG3 preparation and inspection preview — 0.3.13
+## BG3 collection and Trials preparation — 0.3.14
 
-Use [the BG3 guide and short test list](BG3_SUPPORT.md). This version prepares saved mods and checks selected requirements in local presets; BG3 installation, launch and sharing remain locked. Online mod.io prevention and gameplay are not verified.
+Read [the current five small checks](BG3_SUPPORT.md#current-small-test-list). Save reusable copies of installed PAKs without changing them, check dependencies, create a reviewed Trials Reloaded preset and prepare the official Script Extender in the library. Exact saved Nexus PAK matches can be added; name/version matches alone do not prove equivalence.
 
-BG3 → Game Setup → Inspect installed setup checks your existing PAKs and Public enabled-mod list without changing them. Later checks compare against the first complete reference. No immediate test is needed; when convenient, report whether the PAK-file count looks reasonable. Existing mods outside a preset stay in place. This does not block mod.io downloads.
+Account setup records player observations only. Preview moving mods aside moves nothing. Actual deployment/restoration, tool installation, launch and sharing remain locked; online mod.io prevention and gameplay are not verified. No account/subscription changes or game launch are requested for this preview. See [special setups and remaining work](BG3_SPECIAL_SETUPS.md).
 
 ## First alpha checks
 
