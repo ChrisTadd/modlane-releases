@@ -1,6 +1,10 @@
-# Modlane 0.3.4 — current tester guide
+# Modlane — current tester guide
 
-17 October 2026 · Windows x64 testing beta
+4 November 2026 · Modlane 0.3.12 · Windows x64 testing beta
+
+## BG3 preparation preview
+
+Follow the [five small BG3 tests](BG3_SUPPORT.md#small-lead-tester-list): import/download and saved preparation, selected requirements, preset persistence, Trials/unsupported-file guidance, and readable UI with launch controls locked. Update when ready through Settings → App updates. No subscription changes or in-game testing are requested for this stage. Existing Skyrim acceptance sections remain below.
 
 ## Skyrim first: small real-game acceptance
 
