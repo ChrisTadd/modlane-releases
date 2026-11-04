@@ -1,10 +1,12 @@
 # Modlane — current tester guide
 
-4 November 2026 · Modlane 0.3.12 · Windows x64 testing beta
+4 November 2026 · Modlane 0.3.13 · Windows x64 testing beta
 
-## BG3 preparation preview
+## BG3 preparation and inspection preview
 
-Follow the [five small BG3 tests](BG3_SUPPORT.md#small-lead-tester-list): import/download and saved preparation, selected requirements, preset persistence, Trials/unsupported-file guidance, and readable UI with launch controls locked. Update when ready through Settings → App updates. No subscription changes or in-game testing are requested for this stage. Existing Skyrim acceptance sections remain below.
+The only quick check currently suggested is [Inspect installed setup](BG3_SUPPORT.md#inspect-your-existing-in-game-mods). The earlier preparation tests remain optional for later. Update when convenient through Settings → App updates; no subscription changes or game launch are requested. Existing Skyrim sections remain below.
+
+BG3 → Game Setup → Inspect installed setup checks your existing PAKs and Public enabled-mod list without changing them. Later checks compare against the first complete reference. No immediate test is needed; when convenient, report whether the PAK-file count looks reasonable. Existing mods outside a preset stay in place. This does not block mod.io downloads.
 
 ## Skyrim first: small real-game acceptance
 

@@ -1,6 +1,6 @@
-# BG3 — first preparation preview and test card
+# BG3 — preparation and existing-setup inspection
 
-**Preparation preview 0.3.12 · 4 November 2026.** This is the first preparation stage, with Windows PC multiplayer as the eventual target.
+**Preparation preview 0.3.13 · 4 November 2026.** This is the first preparation stage, with Windows PC multiplayer as the eventual target.
 
 ## What is implemented
 
@@ -18,11 +18,26 @@ Current limits: LSPK v15/v16/v18 with uncompressed, zlib or LZ4 metadata; solid/
 
 ## Get the preview
 
-Use **Settings → App updates → Check for updates**, then download/review 0.3.12 and choose **Restart & update** when ready. Alternatively, get the installer from [the GitHub release](https://github.com/ChrisTadd/modlane-releases/releases/tag/v0.3.12). The portable ZIP is also available; keep its executable with the accompanying files and close another running Modlane before opening it. The normal app library/settings are used when **you** open it; developer checks instead use disposable profiles. The developer does not apply your installed-app update.
+Use **Settings → App updates → Check for updates**, then download/review 0.3.13 and choose **Restart & update** when ready. Alternatively, get the installer from [the GitHub release](https://github.com/ChrisTadd/modlane-releases/releases/tag/v0.3.13). The portable ZIP is also available; keep its executable with the accompanying files and close another running Modlane before opening it. The normal app library/settings are used when **you** open it; developer checks instead use disposable profiles. The developer does not apply your installed-app update.
 
 Open BG3 → Presets to import/organise files, then **Check setup** or the **Game Setup** tab. Downloads and preparation stay separate from the live game. Returning to the published 0.3.11 app leaves the saved preview records in the library; that older app will not offer the new BG3 preparation screens. No live deployment needs restoring after this preview.
 
+
+## Inspect your existing in-game mods
+
+No check is required before development can continue. When convenient, update to 0.3.13, open **BG3 → Game Setup → Inspect installed setup**, and tell us whether the PAK-file count looks reasonable. You do not need to import anything first. A PAK can contain multiple modules, so this count may differ from the in-game mod count. A large collection takes time to hash; progress is displayed. If the inspection is incomplete, report the displayed message.
+
+This reads PAKs in the existing Mods folder and the Public profile's enabled-mod list. Existing mods outside your selected Modlane preset are not unwanted and are never removed. Modlane distinguishes exact recorded saved-file matches, a matching module with different file bytes, and other existing mods. An enabled-list entry is not proof a mod loaded in-game; override PAKs can matter without activation. Account/subscription/source provenance is not inferred.
+
+The first complete check saves a reference in Modlane's library. **Inspect again** compares fresh PAK hashes and activation/version/details/order with that first reference, including across app restarts. Harmless formatting changes do not count as setup changes. An incomplete inspection keeps the reference and never claims nothing changed. These are explicitly requested point-in-time checks, not continuous monitoring or a download blocker.
+
+**Save inspection report**, beside Inspect again, is optional. The JSON report includes mod names/UUIDs, versions, hashes and check results, without installation paths, raw settings, saves or account credentials. Review it before sharing; mod names reveal your collection. The save picker rejects game/BG3 user-data folders and linked targets. Nothing is sent automatically.
+
+Only Mods PAKs and Public's list are covered: other profiles, loose/native files, runtime/gameplay and mod.io account state are outside scope. Limits are 5000 PAKs, 20000 installed modules, a 4 MiB configuration and bounded metadata. Unsupported metadata, unsafe links, nested PAKs, missing lists or files changing during the scan produce an incomplete result. Do not clean up working mods, change subscriptions or launch BG3 for this check.
+
 ## Small lead-tester list
+
+The inspection above is the only quick check currently suggested. The earlier preparation checks below remain optional for later.
 
 | Test | Steps and expected result |
 |---|---|

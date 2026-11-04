@@ -6,9 +6,11 @@ A Windows companion for finding Nexus mods, organising downloads, inspecting exi
 
 Choose the **Modlane-x.y.z-x64.exe** installer for normal use. The ZIP is a portable copy. The `.modlane-update` file and `modlane-release.json` are used by the installed app's updater.
 
-## BG3 preparation preview — 0.3.12
+## BG3 preparation and inspection preview — 0.3.13
 
-Read the [BG3 scope and five small tests](BG3_SUPPORT.md). Import archives/raw PAK files, organise local presets and inspect selected requirements. This release does not prevent mod.io downloads or enable BG3 deployment/gameplay. Existing games and saves remain protected.
+Read the [BG3 inspection guide and optional preparation tests](BG3_SUPPORT.md). Import archives/raw PAK files, organise local presets and inspect selected requirements. This release does not prevent mod.io downloads or enable BG3 deployment/gameplay. Existing games and saves remain protected.
+
+BG3 → Game Setup → Inspect installed setup checks your existing PAKs and Public enabled-mod list without changing them. Later checks compare against the first complete reference. No immediate test is needed; when convenient, report whether the PAK-file count looks reasonable. Existing mods outside a preset stay in place. This does not block mod.io downloads.
 
 ## Testing with friends
 
@@ -22,7 +24,7 @@ For version 0.2.4, open **Settings → App updates → Release source and manual
 
 ## Testing beta
 
-Automatic installation currently supports recognised Stardew/SMAPI content, Cyberpunk archive/framework layouts, and supported Skyrim plugin/SKSE/XML-installer presets. Other Nexus-listed Steam games support browsing, downloads and basic detection; additional installation formats need dedicated support. Skyrim Game Setup checks requirements, handles matching SKSE and supported installation choices, prepares plugin order and separate new-save folders, then Launch Modded uses the correct route. Read the [Skyrim support and first tests](SKYRIM_SUPPORT.md) before testing; full LOOT rules, external generators/root injectors and separate overhaul launchers remain unfinished. Baldur's Gate 3 additionally supports archive preparation and local preset checks in 0.3.12; installation, launch and sharing stay locked. Elden Ring remains detection only. Detection cannot guarantee that every existing modification or conflict has been identified.
+Automatic installation currently supports recognised Stardew/SMAPI content, Cyberpunk archive/framework layouts, and supported Skyrim plugin/SKSE/XML-installer presets. Other Nexus-listed Steam games support browsing, downloads and basic detection; additional installation formats need dedicated support. Skyrim Game Setup checks requirements, handles matching SKSE and supported installation choices, prepares plugin order and separate new-save folders, then Launch Modded uses the correct route. Read the [Skyrim support and first tests](SKYRIM_SUPPORT.md) before testing; full LOOT rules, external generators/root injectors and separate overhaul launchers remain unfinished. Baldur's Gate 3 additionally supports archive preparation and local preset checks in 0.3.13; installation, launch and sharing stay locked. Elden Ring remains detection only. Detection cannot guarantee that every existing modification or conflict has been identified.
 
 Nexus free accounts still require the site's normal slow-download interaction. If verification blocks the embedded browser, use the normal-browser capture option. Modlane's Help tab explains linking games, downloads, presets and recovery.
 
