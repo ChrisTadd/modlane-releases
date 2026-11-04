@@ -33,4 +33,3 @@ Open BG3 → Presets to import/organise files, then **Check setup** or the **Gam
 | 5. Readability and boundaries | Check Game Setup, Presets, More information and ? Help at your usual theme/text size. Launch Modded/Vanilla must stay disabled; sharing must not be offered. Report any confusing wording, missing next action or layout problem. |
 
 For feedback, give the preview version, selected mod/file names, steps and the exact displayed message. Do not send credentials or saved games. Actual online/startup/gameplay tests come after a separately designated safe environment and the unresolved mod.io control gate are established. This test card does not request changing your current subscriptions or launching your protected BG3 setup.
-
