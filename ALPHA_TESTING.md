@@ -6,6 +6,15 @@
 4. Use your own Nexus account. An API key connection is optional/recommended; free Slow download still needs your Nexus click. Do not share another tester’s key, account profile or credential files.
 5. Later releases are available in Settings → App updates → Check for updates → Download update → Restart & update. Portable copies use the new portable ZIP.
 
+
+## Clearer workspace — 0.3.15
+
+Settings now has Appearance, Accounts, Games & folders, Downloads, Updates and Advanced categories. Existing preferences and controls remain available. Help groups the complete searchable guides by task.
+
+Downloads separates Queue and Saved, puts transfers above waiting clicks, and opens recent history from Activity on the right. File menus keep capture/import/source/folder actions. Removing a queue entry keeps its saved archive. The game filter scopes downloads and activity together.
+
+The main-screen View update notice opens Updates directly. In 0.3.15 use Settings → Updates; earlier versions call this App updates. Installing an update remains your choice. Game setup/installation/launch behaviour and protected-game limits are unchanged.
+
 ## BG3 collection and Trials preparation — 0.3.14
 
 Read [the current five small checks](BG3_SUPPORT.md#current-small-test-list). Save reusable copies of installed PAKs without changing them, check dependencies, create a reviewed Trials Reloaded preset and prepare the official Script Extender in the library. Exact saved Nexus PAK matches can be added; name/version matches alone do not prove equivalence.

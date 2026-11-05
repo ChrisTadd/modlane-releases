@@ -1,6 +1,17 @@
 # Modlane — current tester guide
 
-4 November 2026 · Modlane 0.3.14 · Windows x64 testing beta
+5 November 2026 · Modlane 0.3.15 · Windows x64 testing beta
+
+
+## Clearer workspace — 0.3.15
+
+Settings now has Appearance, Accounts, Games & folders, Downloads, Updates and Advanced categories. Existing preferences and controls remain available. Help groups the complete searchable guides by task.
+
+Downloads separates Queue and Saved, puts transfers above waiting clicks, and opens recent history from Activity on the right. File menus keep capture/import/source/folder actions. Removing a queue entry keeps its saved archive. The game filter scopes downloads and activity together.
+
+The main-screen View update notice opens Updates directly. In 0.3.15 use Settings → Updates; earlier versions call this App updates. Installing an update remains your choice. Game setup/installation/launch behaviour and protected-game limits are unchanged.
+
+Quick UI check: visit each Settings category, open a Help guide/search, then check Queue/Saved and Activity with your preferred theme/text size. No game launch or deployment is needed. Report the page and unexpected result.
 
 ## BG3 collection and Trials preparation — 0.3.14
 
@@ -84,7 +95,7 @@ External edits pause deployment/recovery. Keep recovery data. Remove managed dep
 
 ## Evidence and useful reports
 
-Developer tests use generated archives/game folders and disposable profiles. Release evidence is recorded in DEVELOPMENT_PLAN.md; eyesight/readability, physical usability and in-game acceptance remain lead checks. Never run test scripts against real profiles or playthroughs.
+Developer tests use generated archives/game folders and disposable profiles. Readability, physical usability and in-game acceptance remain player checks. Never run test scripts against real profiles or playthroughs.
 
 Include app version, game, steps, expected/actual result and the displayed error/screenshot. Settings can export a troubleshooting report without credentials/personal installation paths; review before sharing. Never post keys or saves publicly.
 
