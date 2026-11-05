@@ -4,7 +4,7 @@
 2. Expand Assets if necessary. Download **Modlane-<version>-x64.exe** and run it. This is the Windows 64-bit installer. The .modlane-update file is for an existing app; Source code is not an installer. The x64.zip is an optional portable copy.
 3. Open Modlane, choose the drive/folder for the mod library in Settings if desired, then link your own installed game or add your Steam libraries. Settings ? guides explain folder locations.
 4. Use your own Nexus account. An API key connection is optional/recommended; free Slow download still needs your Nexus click. Do not share another tester’s key, account profile or credential files.
-5. Later releases are available in Settings → App updates → Check for updates → Download update → Restart & update. Portable copies use the new portable ZIP.
+5. Later releases are available in Settings → Updates → Check for updates → Download update → Restart & update. Versions before 0.3.15 call this App updates. Portable copies use the new portable ZIP.
 
 
 ## Clearer workspace — 0.3.15
