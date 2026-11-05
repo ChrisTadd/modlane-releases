@@ -15,17 +15,19 @@ Downloads separates Queue and Saved, puts transfers above waiting clicks, and op
 
 The main-screen View update notice opens Updates directly. In 0.3.15 use Settings → Updates; earlier versions call this App updates. Installing an update remains your choice. Game setup/installation/launch behaviour and protected-game limits are unchanged.
 
-## BG3 collection and Trials preparation — 0.3.14
+## BG3 experimental setup switching — 0.3.17
 
-Read [the current five small checks](BG3_SUPPORT.md#current-small-test-list). Save reusable copies of installed PAKs without changing them, check dependencies, create a reviewed Trials Reloaded preset and prepare the official Script Extender in the library. Exact saved Nexus PAK matches can be added; name/version matches alone do not prove equivalence.
+Launch Modded holds the whole original in-game collection outside BG3’s watched folders and uses only the selected Modlane PAK preset. Launch Vanilla restores and uses the original in-game collection. New Nexus preset starts empty; search, source hiding and bulk removal keep large libraries manageable.
 
-Account setup records player observations only. Preview moving mods aside moves nothing. Actual deployment/restoration, tool installation, launch and sharing remain locked; online mod.io prevention and gameplay are not verified. No account/subscription changes or game launch are requested for this preview. See [special setups and remaining work](BG3_SPECIAL_SETUPS.md).
+The player explicitly approved experimental launches after fresh signed-out/unlinked checks. Steam stays online, but mod.io download prevention is unproven. Cancel download/synchronise prompts and use a fresh test campaign. Selected Script Extender setup and fresh-log checks are included; native integrations, automatic save/settings isolation, exact sharing/runtime pinning and real multiplayer acceptance remain open.
+
+Follow [the five small tests](BG3_SUPPORT.md#current-small-test-list), then see [special setups](BG3_SPECIAL_SETUPS.md) for the exact Trials files and unsupported external tools.
 
 ## First alpha checks
 
 Check linking/search/favourites, a small Nexus download, parallel downloads, progress/cancel, game filtering, My Mods cards and the app updater. Send the developer your app version, game, steps taken, expected/actual result, and screenshots if useful. Settings can export a troubleshooting report without credentials/personal installation paths.
 
-Only test installation/update/uninstall on the formats explicitly supported by Modlane, using a separate test save. A Nexus listing alone is not an installation adapter. Read-only detection and archive removal do not adopt a manually installed mod. BG3/Elden Ring remain protected/read-only in this build. External manager instructions still apply to externally installed mods.
+Only test installation/update/uninstall on the formats explicitly supported by Modlane, using a separate test save. A Nexus listing alone is not an installation adapter. Read-only detection and archive removal do not adopt a manually installed mod. BG3 has the explicitly approved experimental setup route above. Elden Ring remains read-only. External manager instructions still apply to externally installed mods.
 
 My Mods → Update refreshes current Nexus requirements before downloading. For supported managed installations, Review downloaded update creates a new local preset, includes unambiguous cached requirements, and opens the normal installation review. Previous presets/archives remain until you choose removal. Unknown version comparisons and optional/alternate files require selection on Nexus. Offline checks retain cached information; retry with Check for updates when online.
 

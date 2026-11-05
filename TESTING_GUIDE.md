@@ -1,6 +1,6 @@
 # Modlane — current tester guide
 
-5 November 2026 · Modlane 0.3.16 · Windows x64 testing beta
+5 November 2026 · Modlane 0.3.17 · Windows x64 testing beta
 
 
 ## Downloads and Help repair — 0.3.16
@@ -19,11 +19,13 @@ The main-screen View update notice opens Updates directly. In 0.3.15 use Setting
 
 Quick UI check: visit each Settings category, open a Help guide/search, then check Queue/Saved and Activity with your preferred theme/text size. No game launch or deployment is needed. Report the page and unexpected result.
 
-## BG3 collection and Trials preparation — 0.3.14
+## BG3 experimental setup switching — 0.3.17
 
-Read [the current five small checks](BG3_SUPPORT.md#current-small-test-list). Save reusable copies of installed PAKs without changing them, check dependencies, create a reviewed Trials Reloaded preset and prepare the official Script Extender in the library. Exact saved Nexus PAK matches can be added; name/version matches alone do not prove equivalence.
+Launch Modded holds the whole original in-game collection outside BG3’s watched folders and uses only the selected Modlane PAK preset. Launch Vanilla restores and uses the original in-game collection. New Nexus preset starts empty; search, source hiding and bulk removal keep large libraries manageable.
 
-Account setup records player observations only. Preview moving mods aside moves nothing. Actual deployment/restoration, tool installation, launch and sharing remain locked; online mod.io prevention and gameplay are not verified. No account/subscription changes or game launch are requested for this preview. See [special setups and remaining work](BG3_SPECIAL_SETUPS.md).
+The player explicitly approved experimental launches after fresh signed-out/unlinked checks. Steam stays online, but mod.io download prevention is unproven. Cancel download/synchronise prompts and use a fresh test campaign. Selected Script Extender setup and fresh-log checks are included; native integrations, automatic save/settings isolation, exact sharing/runtime pinning and real multiplayer acceptance remain open.
+
+Follow [the five small tests](BG3_SUPPORT.md#current-small-test-list), then see [special setups](BG3_SPECIAL_SETUPS.md) for the exact Trials files and unsupported external tools.
 
 ## Skyrim first: small real-game acceptance
 

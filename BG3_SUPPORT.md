@@ -1,77 +1,73 @@
-# BG3 — preparation and existing-setup inspection
+# BG3 — experimental Windows PC setups
 
-**Preparation preview 0.3.14 · 4 November 2026.** This extends the existing preparation stage, for Windows PC multiplayer as the eventual target.
+**0.3.17 · 5 November 2026.** Switch between your existing in-game collection and a separate Modlane preset. The lead tester confirmed the earlier 167-PAK inspection. Real-game switching, Script Extender and multiplayer now need player testing.
 
-## New in 0.3.14
+## Two launch buttons
 
-Your 167-PAK inspection is confirmed by the lead tester. GustavX and HonourX are now recognised by exact built-in IDs rather than reported as missing third-party PAKs. Name lookalikes do not receive that exemption.
+| Button | What it does |
+|---|---|
+| **Launch Vanilla** | Restores your original Mods folder, Public enabled list and tracked extender files, then starts BG3. Your in-game mods are included: this is not a promise of an unmodded game. |
+| **Launch Modded** | Moves the whole original collection aside and installs only the selected Modlane PAKs, with dependencies first. Requires a fresh experimental account check each launch. |
 
-- **Save existing mods to library** copies inspected PAKs into a separate local collection preset, preserves inactive module choices and reuses verified cached content. Original installed files, enabled list, accounts and saves stay unchanged. New library copies may use roughly twice the PAK size (archive plus prepared copy); insufficient space stops safely and earlier successes remain reusable. This is not a complete settings/save backup or file-ownership adoption.
-- **Installed dependency checks** distinguish missing, disabled, old, misordered and list-version-mismatched entries for enabled modules. Earlier snapshots request Inspect again to gather dependency declarations. These are static declarations, not all author requirements or compatibility proof.
-- **Set up Trials Reloaded** creates a separate reviewed 2.3.5.0 preset with ATTSpells 1.1.9.2, dependency-first order, SE requirements and fresh-campaign guidance. Only unambiguous verified cached files are included automatically. Missing/ambiguous variants need review. **Prepare official Script Extender** verifies the reviewed official v33 ZIP/hash/x64 DLL and stores it only in the library; it is not installed or executed.
-- **Refresh author requirements** explicitly checks up to 30 selected Nexus packages and retains incomplete/file-level/off-site warnings and retryable failures. Embedded declarations and reviewed recipes do not replace exact-file author guidance. Native loader/camera/WASD files keep their original downloads and need dedicated integration.
-- **Add saved Nexus copy** appears only for an already-downloaded Nexus package with one byte-identical PAK, and rechecks both copies before editing the preset. Same UUID/version with different bytes is only a suggestion. **Find on Nexus** searches one mod name after your click; catalogue names/versions alone never establish equivalence. No mod.io subscription/provenance is inferred.
-- **Account setup** explains supported game-session/account-link checks and records your observations only. Records expire after 24 hours or inspected content changes and never establish independently verified session state or unlock launch. **Preview moving mods aside** shows which PAKs would stay/move for the selected preset, but moves nothing.
+Keep Steam online. Close BG3 and other mod managers before switching. Use a **fresh test campaign**, with a separate save; automatic save/settings isolation is not implemented.
 
-Read [special tools, account findings and the remaining roadmap](BG3_SPECIAL_SETUPS.md). Actual file moves/restoration, Public/campaign deployment, live tool installation, launch, save isolation and sharing are still unimplemented/gated. There is no proven online mod.io acquisition-prevention control yet. No account changes or BG3 launch are required for the tests below.
+## Start with a small Nexus preset
+
+1. In BG3 → Game Setup, choose **New Nexus preset**. It starts empty.
+2. Browse/download the mods you want, or import their archives. In Presets, add them to your new preset and choose **Check setup**.
+3. Resolve missing dependencies. Prepare official Script Extender if offered.
+4. Choose **Launch Modded** and follow its short account check.
+
+Downloads still collect in Default; your new preset stays a separate choice. Existing collection copies are hidden from the available-mod list by default. Search finds saved mods. **Show existing collection** reveals the copies. Selected entries always remain visible. **Remove existing copies from preset** clears those selections and keeps every download.
+
+Hiding entries changes the view only. **Move existing mods aside** actually moves the whole live Mods folder outside BG3’s watched folders, without uninstalling it. **Restore in-game mods** brings it back without launching. Launch Vanilla also restores it. While mods are moved aside, use Modlane to choose the setup before starting BG3 from elsewhere.
+
+## Account check before every Modlane launch
+
+In BG3’s Mod Manager, sign out of mod.io, confirm it offers sign-in, then close BG3. Open [mod.io’s linked accounts](https://mod.io/me/account#linked) and disconnect Larian if linked. Keep Steam online. Tick the launch confirmation only after checking.
+
+**These checks do not prove download prevention.** Modlane cannot independently verify the game session. Anonymous access, automatic sign-in and save/lobby prompts may still acquire mods. Cancel any prompt to download/synchronise mods. There is no verified external download-off switch. The player explicitly approved this labelled experimental route; supported prevention remains an open requirement.
+
+Unexpected live files stop another modded switch. Restoring the in-game setup keeps those files separately. Do not delete Modlane’s holding/recovery folders. Recover switch appears after an interruption; changed recovery material stops safely for review. Modlane does not read, revoke or edit credentials or subscriptions.
+
+## Trials Reloaded
+
+**Set up Trials Reloaded** creates a separate preset for these reviewed files:
+
+- [Trials of Tav – Reloaded 2.3.5.0](https://www.nexusmods.com/baldursgate3/mods/14430?tab=files).
+- [Advanced Tabletop Spells 1.1.9.2](https://www.nexusmods.com/baldursgate3/mods/14429?tab=files), before Reloaded.
+- [Norbyte Script Extender](https://github.com/Norbyte/bg3se/releases/tag/v33), at least v30 or the stronger selected-file requirement.
+
+Only unambiguous verified saved files are added automatically. Download missing exact files using your own Nexus account and its normal free-download clicks, then add them. A general description naming an older ATTSpells version does not override Reloaded’s file requirement. Original Trials is a separate mod; do not reuse a valued campaign or assume saves are interchangeable. Optional level-cap/spell expansions remain separate choices.
+
+Prepare official Script Extender validates the reviewed official ZIP and DLL. Launch Modded installs DWrite.dll and managed configuration in bin only when required. Originals are backed up and restored. The extender uses its own Release-channel runtime cache and local logs outside BG3’s watched folders. Achievements are off by default in the managed configuration; Launch settings offers an explicit per-preset choice. Crash reporting is off. DirectX 11 is the default; Vulkan is selectable.
+
+After BG3 starts, use **Check Script Extender**. Only fresh, changed local logs count. No log, no identifiable version or an older version remains visible as unconfirmed/needs attention. A launched process is not proof that the extender or mods work. The runtime updater can change versions; exact multiplayer runtime pinning is not implemented.
+
+## What is checked
+
+Selected packages are reverified before copying: exact PAK hashes, UUID/Version64 requirements, duplicate identities/filenames, dependency cycles, reviewed Trials versions and available Nexus author requirements. Unchanged repeat launches fully verify live files without moving the collection again or rereading unused library copies. Equivalent configuration formatting is retained; genuine activation/order changes stop a modded switch.
+
+Owned DiceSet game content can satisfy dependencies only when its exact UUID/version is found in the game Data folder. Missing content asks for a Steam installation check, not a Nexus replacement. Static declarations and API coverage do not establish all author requirements or gameplay compatibility; partial/failed author results and unsupported external requirements remain actionable.
+
+**Existing setup → Inspect installed setup** remains read-only and saves a first complete comparison reference. Optional reports omit paths, credentials and raw configuration. **Save existing mods to library** is optional copying, distinct from moving: it can use approximately twice the PAK bytes for an archive and prepared copy. Existing disabled modules stay inactive in that copied preset.
+
+**Add saved Nexus copy** links an already-downloaded one-PAK Nexus package only when its PAK is byte-identical. Matching names or UUID/version with different bytes are suggestions only. A Nexus source does not prove compatibility.
 
 ## Current small test list
 
-Update voluntarily through Settings → App updates. Keep your present collection and subscriptions; use the following preparation actions only.
+Update through Settings → Updates when ready. Use a fresh test campaign and a small preset first.
 
-| Check | Expected result |
-|---|---|
-| 1. Inspect again | Around 167 PAKs, assuming your collection has not changed. GustavX/HonourX should no longer appear as missing mod PAKs when their exact IDs match. Dependency details should distinguish a missing file from an installed-but-disabled requirement. Report unexpected warnings rather than deleting anything. |
-| 2. Save existing mods to library | Review the disk-space note, then Save collection. A separate Existing BG3 collection preset appears; previously inactive modules stay inactive. Original installed PAKs/list remain unchanged. Restart Modlane and check the preset remains. Skip this if you do not want the extra disk use yet. |
-| 3. Set up Trials Reloaded | A separate Trials Reloaded preset appears. Missing Reloaded 2.3.5.0 / ATTSpells 1.1.9.2 files get a remedy; cached variants are not guessed. Import/download those exact files only if you want to test preparation. SE should appear as a selected requirement; Prepare official Script Extender should say prepared in library, not installed/runtime verified. |
-| 4. Optional Nexus comparison | Find on Nexus searches the chosen mod. A previously downloaded one-PAK identical Nexus package may offer Add saved Nexus copy; matching UUID/version with different bytes must not auto-link. Refresh author requirements should show useful missing/off-site/incomplete information or a retryable connection error. |
-| 5. Account and move boundaries | Read Account setup; leave observations unticked unless actually checked in a designated test setup. Preview moving mods aside should show counts and move nothing. Account observations must never enable installation, launch or sharing. No sign-out/unlinking, subscription change or game launch is requested for this preview. |
+- [ ] **New preset:** New Nexus preset starts empty; existing collection copies are hidden. Add one simple Nexus mod and Check setup.
+- [ ] **Move and restore:** Move existing mods aside, then Restore in-game mods. Your original collection returns; nothing is uninstalled.
+- [ ] **Modded:** Complete the launch account check. The small preset loads and your original 167 mods are absent. Cancel any download/sync prompt.
+- [ ] **Vanilla:** Close BG3; Launch Vanilla. Your original in-game collection returns. Close and repeat the Modded launch once.
+- [ ] **Trials:** Use the exact Reloaded/ATTSpells files above, prepare Script Extender, then try a fresh campaign. Check Script Extender and report its result.
 
-Report version, the check number and exact unexpected message; an inspection report is optional. These tests do not validate actual online prevention or Trials gameplay.
+If anything differs, stop and send the check number and message/screenshot. Do not deliberately crash BG3 or change subscriptions for these tests. Two-PC host/join/reconnect tests follow after the small local round trip works.
 
-## Earlier preparation features
+## Still outside this build
 
-- Import ZIP, 7z, RAR and raw PAK files into Modlane's library. New supported BG3 downloads prepare through the existing browser capture pipeline and collect in Default. Previously saved Default downloads have an explicit **Prepare saved mods** action; excluded files and pending update reviews are preserved.
-- Create and rename local presets, Add/Remove saved mods, preserve membership across restart and keep downloads when excluding a mod. This organises preparation; it does not change the game's installed selection.
-- Game Setup checks only selected packages. It reads UUIDs, exact Version64 values, module dependencies and embedded Script Extender requirements; detects duplicate modules/PAK names and dependency cycles; and suggests dependencies before dependents.
-- Flag metadata-free overrides and program content for dedicated integration. Their absence from an enabled list is not treated as proof they cannot affect the game. Archives containing loose files/tools/ambiguous same-name PAK variants stop with guidance.
-- Recognise the researched Reloaded module using its source identity or author/module evidence, without identifying mods by filename alone. The 2.3.5.0 recipe checks ATTSpells 1.1.9.2 before Reloaded and SE at least v30, retaining stronger embedded requirements. Original Trials is a separate source choice. These are static checks, not gameplay validation.
-- Reinspect and hash selected cached PAKs when checking setup. A changed saved payload cannot retain a success verdict. An attempted reimport of a damaged cached copy also stops; remove that saved copy through My Mods before importing the original again.
-- Provide a calm setup result, remedies for affected selected mods, optional suggested-order details and **?** Help describing online testing still needed.
+Automatic mod.io prevention/session verification; per-preset saves/general settings; exact shared-preset and extender-runtime reproduction; native/loose mods and arbitrary installers/generators; Mac/GOG/console cross-play; gameplay and two-PC acceptance. See [special setups](BG3_SPECIAL_SETUPS.md). Generic deployment/uninstall and preset sharing remain locked for BG3; only the dedicated experimental switch/launch route is enabled. Elden Ring remains read-only.
 
-BG3 **installation, modded/vanilla launch and preset sharing remain blocked**, including direct backend requests. Prepared BG3 packages have no deployable common-engine file list. No account/session checkbox can unlock installation. This preview prepares Script Extender in the library but does not install/configure its live runtime, prevent mod.io downloads, isolate saves or prove multiplayer compatibility. No change to Elden Ring support.
-
-Current limits: LSPK v15/v16/v18 with uncompressed, zlib or LZ4 metadata; solid/split packages and other metadata compression stop honestly. Raw/compressed input is capped at 2 GiB; BG3 PAK archive members can be up to 2 GiB with streaming extraction and the existing 4 GiB total limit. Other games retain their old member limits. Preparation accepts at most 128 PAKs per archive and 2048 selected modules. Declared metadata and the narrow reviewed Trials rule do not capture every author's external/file-specific requirement or record conflict.
-
-## Get the preview
-
-Use **Settings → App updates → Check for updates**, then download/review 0.3.14 and choose **Restart & update** when ready. Alternatively, get the installer from [the GitHub release](https://github.com/ChrisTadd/modlane-releases/releases/tag/v0.3.14). The portable ZIP is also available; keep its executable with the accompanying files and close another running Modlane before opening it. The normal app library/settings are used when **you** open it; developer checks instead use disposable profiles. The developer does not apply your installed-app update.
-
-Open BG3 → Presets to import/organise files, then **Check setup** or the **Game Setup** tab. Downloads and preparation stay separate from the live game. Returning to the published 0.3.11 app leaves the saved preview records in the library; that older app will not offer the new BG3 preparation screens. No live deployment needs restoring after this preview.
-
-
-## Inspect your existing in-game mods
-
-The initial 167-PAK inspection has been accepted as matching the expected collection. To refresh its dependency evidence, open **BG3 → Game Setup → Inspect installed setup**, and tell us whether the PAK-file count looks reasonable. You do not need to import anything first. A PAK can contain multiple modules, so this count may differ from the in-game mod count. A large collection takes time to hash; progress is displayed. If the inspection is incomplete, report the displayed message.
-
-This reads PAKs in the existing Mods folder and the Public profile's enabled-mod list. Existing mods outside your selected Modlane preset are not unwanted and are never removed. Modlane distinguishes exact recorded saved-file matches, a matching module with different file bytes, and other existing mods. An enabled-list entry is not proof a mod loaded in-game; override PAKs can matter without activation. Account/subscription/source provenance is not inferred.
-
-The first complete check saves a reference in Modlane's library. **Inspect again** compares fresh PAK hashes and activation/version/details/order with that first reference, including across app restarts. Harmless formatting changes do not count as setup changes. An incomplete inspection keeps the reference and never claims nothing changed. These are explicitly requested point-in-time checks, not continuous monitoring or a download blocker.
-
-**Save inspection report**, beside Inspect again, is optional. The JSON report includes mod names/UUIDs, versions, hashes and check results, without installation paths, raw settings, saves or account credentials. Review it before sharing; mod names reveal your collection. The save picker rejects game/BG3 user-data folders and linked targets. Nothing is sent automatically.
-
-Only Mods PAKs and Public's list are covered: other profiles, loose/native files, runtime/gameplay and mod.io account state are outside scope. Limits are 5000 PAKs, 20000 installed modules, a 4 MiB configuration and bounded metadata. Unsupported metadata, unsafe links, nested PAKs, missing lists or files changing during the scan produce an incomplete result. Do not clean up working mods, change subscriptions or launch BG3 for this check.
-
-## Small lead-tester list
-
-The current five checks above supersede the previous quick-count-only handoff. These older preparation scenarios remain optional; the lead tester has confirmed discovery of 167 PAKs, not every preparation/installation/gameplay feature.
-
-| Test | Steps and expected result |
-|---|---|
-| 1. Import/download and existing saved files | Import a small ordinary BG3 PAK archive, or download one through your usual Nexus interaction. It should appear in Default and be checked in Game Setup. If older saved Default downloads are present, try Prepare saved mods. Excluded downloads stay excluded. No game files should change. |
-| 2. Selected requirements | Choose a mod with a declared dependency. Leave the dependency out and check that only affected mods need attention. Add a suitable already-downloaded dependency through the offered action; it should precede the dependent under More information. An unrelated inactive SE mod should not add a tool requirement. |
-| 3. Preset persistence | Create an empty preset, Add/Remove a mod, rename it and restart Modlane. The preset and membership should persist. A removed mod's download remains available. Opening the game may select Default by design; your custom preset remains in the dropdown. |
-| 4. Trials and unsupported files | If you download/import Reloaded, check the displayed selected requirements and fresh-campaign note. The current 2.3.5.0 recipe should require ATTSpells 1.1.9.2. An unsupported tool/loose-file archive should explain the gap, retain its original download and never claim it is installed. No need to install or run these mods yet. |
-| 5. Readability and boundaries | Check Game Setup, Presets, More information and ? Help at your usual theme/text size. Launch Modded/Vanilla must stay disabled; sharing must not be offered. Report any confusing wording, missing next action or layout problem. |
-
-For feedback, give the preview version, selected mod/file names, steps and the exact displayed message. Do not send credentials or saved games. Actual online/startup/gameplay tests come after a separately designated safe environment and the unresolved mod.io control gate are established. This test card does not request changing your current subscriptions or launching your protected BG3 setup.
+Supported metadata formats remain bounded LSPK v15/v16/v18 with uncompressed, zlib or LZ4 metadata. Solid/split packages, unsupported compression, links, ambiguous variants, metadata-free overrides and native program content stop with guidance. This first deployment slice requires the current Patch 8 GustavX campaign configuration and supports ordinary module PAKs plus the reviewed extender, at most 500 archives/2048 modules, with the existing 2 GiB member and 4 GiB extraction limits.

@@ -21,11 +21,13 @@ Downloads separates Queue and Saved, puts transfers above waiting clicks, and op
 
 The main-screen View update notice opens Updates directly. In 0.3.15 use Settings → Updates; earlier versions call this App updates. Installing an update remains your choice. Game setup/installation/launch behaviour and protected-game limits are unchanged.
 
-## BG3 collection and Trials preparation — 0.3.14
+## BG3 experimental setup switching — 0.3.17
 
-Read [the current five small checks](BG3_SUPPORT.md#current-small-test-list). Save reusable copies of installed PAKs without changing them, check dependencies, create a reviewed Trials Reloaded preset and prepare the official Script Extender in the library. Exact saved Nexus PAK matches can be added; name/version matches alone do not prove equivalence.
+Launch Modded holds the whole original in-game collection outside BG3’s watched folders and uses only the selected Modlane PAK preset. Launch Vanilla restores and uses the original in-game collection. New Nexus preset starts empty; search, source hiding and bulk removal keep large libraries manageable.
 
-Account setup records player observations only. Preview moving mods aside moves nothing. Actual deployment/restoration, tool installation, launch and sharing remain locked; online mod.io prevention and gameplay are not verified. No account/subscription changes or game launch are requested for this preview. See [special setups and remaining work](BG3_SPECIAL_SETUPS.md).
+The player explicitly approved experimental launches after fresh signed-out/unlinked checks. Steam stays online, but mod.io download prevention is unproven. Cancel download/synchronise prompts and use a fresh test campaign. Selected Script Extender setup and fresh-log checks are included; native integrations, automatic save/settings isolation, exact sharing/runtime pinning and real multiplayer acceptance remain open.
+
+Follow [the five small tests](BG3_SUPPORT.md#current-small-test-list), then see [special setups](BG3_SPECIAL_SETUPS.md) for the exact Trials files and unsupported external tools.
 
 ## Testing with friends
 
@@ -39,7 +41,7 @@ For version 0.2.4, open **Settings → App updates → Release source and manual
 
 ## Testing beta
 
-Automatic installation currently supports recognised Stardew/SMAPI content, Cyberpunk archive/framework layouts, and supported Skyrim plugin/SKSE/XML-installer presets. Other Nexus-listed Steam games support browsing, downloads and basic detection; additional installation formats need dedicated support. Skyrim Game Setup checks requirements, handles matching SKSE and supported installation choices, prepares plugin order and separate new-save folders, then Launch Modded uses the correct route. Read the [Skyrim support and first tests](SKYRIM_SUPPORT.md) before testing; full LOOT rules, external generators/root injectors and separate overhaul launchers remain unfinished. Baldur's Gate 3 additionally supports archive preparation and local preset checks in 0.3.14; installation, launch and sharing stay locked. Elden Ring remains detection only. Detection cannot guarantee that every existing modification or conflict has been identified.
+Automatic installation currently supports recognised Stardew/SMAPI content, Cyberpunk archive/framework layouts, and supported Skyrim plugin/SKSE/XML-installer presets. Other Nexus-listed Steam games support browsing, downloads and basic detection; additional installation formats need dedicated support. Skyrim Game Setup checks requirements, handles matching SKSE and supported installation choices, prepares plugin order and separate new-save folders, then Launch Modded uses the correct route. Read the [Skyrim support and first tests](SKYRIM_SUPPORT.md) before testing; full LOOT rules, external generators/root injectors and separate overhaul launchers remain unfinished. Baldur's Gate 3 supports dedicated experimental module-PAK switching and selected Script Extender setup; generic deployment/uninstall and sharing remain locked. Elden Ring remains detection only. Detection cannot guarantee that every existing modification or conflict has been identified.
 
 Nexus free accounts still require the site's normal slow-download interaction. If verification blocks the embedded browser, use the normal-browser capture option. Modlane's Help tab explains linking games, downloads, presets and recovery.
 
