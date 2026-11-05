@@ -7,6 +7,12 @@ A Windows companion for finding Nexus mods, organising downloads, inspecting exi
 Choose the **Modlane-x.y.z-x64.exe** installer for normal use. The ZIP is a portable copy. The `.modlane-update` file and `modlane-release.json` are used by the installed app's updater.
 
 
+## Downloads and Help repair — 0.3.16
+
+Fixes the archivePath error when opening Downloads with older saved-download records, and the related Help-card/common-question navigation error. The approved layout, settings, archives and game behaviour are retained. No automatic archive cleanup or repair is performed.
+
+Update when convenient through Settings → Updates. Then open Downloads, switch Queue/Saved, and try the Help cards and common questions. No game launch or deployment is needed.
+
 ## Clearer workspace — 0.3.15
 
 Settings now has Appearance, Accounts, Games & folders, Downloads, Updates and Advanced categories. Existing preferences and controls remain available. Help groups the complete searchable guides by task.

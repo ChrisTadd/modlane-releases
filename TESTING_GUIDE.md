@@ -1,7 +1,13 @@
 # Modlane — current tester guide
 
-5 November 2026 · Modlane 0.3.15 · Windows x64 testing beta
+5 November 2026 · Modlane 0.3.16 · Windows x64 testing beta
 
+
+## Downloads and Help repair — 0.3.16
+
+Fixes the archivePath error when opening Downloads with older saved-download records, and the related Help-card/common-question navigation error. The approved layout, settings, archives and game behaviour are retained. No automatic archive cleanup or repair is performed.
+
+Update when convenient through Settings → Updates. Then open Downloads, switch Queue/Saved, and try the Help cards and common questions. No game launch or deployment is needed.
 
 ## Clearer workspace — 0.3.15
 
