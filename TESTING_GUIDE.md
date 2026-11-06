@@ -1,7 +1,11 @@
 # Modlane — current tester guide
 
-6 November 2026 · Modlane 0.3.18 · Windows x64 testing beta
+6 November 2026 · Modlane 0.3.19 · Windows x64 testing beta
 
+
+## Divinity: Original Sin 2 Definitive Edition — 0.3.19
+
+Use Browse Mods to download campaign add-ons, add them to a preset, then choose Launch Modded. Launch Vanilla starts the main campaign with user add-ons disabled. Modlane keeps the previous Mods folder and load order for restoration. Follow the [Divinity guide and first real-game checks](DIVINITY_SUPPORT.md#first-real-game-checks).
 
 ## The Sims 4 custom mods preview — 0.3.18
 

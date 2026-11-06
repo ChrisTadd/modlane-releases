@@ -7,6 +7,10 @@ A Windows companion for finding Nexus mods, organising downloads, inspecting exi
 Choose the **Modlane-x.y.z-x64.exe** installer for normal use. The ZIP is a portable copy. The `.modlane-update` file and `modlane-release.json` are used by the installed app's updater.
 
 
+## Divinity: Original Sin 2 Definitive Edition — 0.3.19
+
+Use Browse Mods to download campaign add-ons, add them to a preset, then choose Launch Modded. Launch Vanilla starts the main campaign with user add-ons disabled. Modlane keeps the previous Mods folder and load order for restoration. Follow the [Divinity guide and first real-game checks](DIVINITY_SUPPORT.md#first-real-game-checks).
+
 ## The Sims 4 custom mods preview — 0.3.18
 
 Link the Windows game and choose a folder of extracted .package files. Launch custom mods uses the selected packages, and Restore previous Mods folder brings back your prior setup. Try one recognisable item in a fresh save. See the [Sims 4 setup and troubleshooting guide](SIMS4_SUPPORT.md).
