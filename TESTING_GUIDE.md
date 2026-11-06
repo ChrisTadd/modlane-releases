@@ -1,7 +1,11 @@
 # Modlane — current tester guide
 
-5 November 2026 · Modlane 0.3.17 · Windows x64 testing beta
+6 November 2026 · Modlane 0.3.18 · Windows x64 testing beta
 
+
+## The Sims 4 custom mods preview — 0.3.18
+
+Link the Windows game and choose a folder of extracted .package files. Launch custom mods uses the selected packages, and Restore previous Mods folder brings back your prior setup. Try one recognisable item in a fresh save. See the [Sims 4 setup and troubleshooting guide](SIMS4_SUPPORT.md).
 
 ## Downloads and Help repair — 0.3.16
 
