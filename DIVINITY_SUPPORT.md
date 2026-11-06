@@ -1,25 +1,31 @@
-# Divinity: Original Sin 2 — Definitive Edition
+# Divinity: Original Sin 2 on Windows
 
-Modlane 0.3.19 supports the Windows main campaign with ordinary Definitive Edition add-on PAKs. Download from **Browse Mods**, add the prepared archive to a preset and use **Launch Modded**. **Launch Vanilla** starts the main campaign with an empty user Mods folder. Modlane manages the package copies and active profile load order for both modes.
+Modlane supports the Classic and Definitive Edition main campaigns as separate game cards. **Launch Modded** prepares selected saved archives, places PAKs and supported loose game data, writes the active profile’s load order and starts the edition shown. **Launch Vanilla** starts the same edition without user add-ons.
+
+## If both launch buttons were greyed out
+
+Open your original Divinity game card. It now shows **Classic** and keeps its existing downloads and Default preset. Choose **Launch Modded**. Modlane checks the files already saved, including downloads previously cleared from the queue. If you have never created a Classic player profile, use **Open Classic**, create it in-game, quit and choose **Launch Modded** again. Classic and Definitive Edition have separate player profiles and saves.
+
+The Classic workflow covers the PAK installation route used by Fast Run Speed, Level Up All Equipment, Free Pet Pal and Crafting Overhaul, the loose Public assets used by HQ World, and the loose Public and Mods trees used by Megalooot. Modlane uses the Megalooot variant you downloaded. HQ World’s 1v5 patch requires the 1v4 One pack and loads over it. [HQ World files](https://www.nexusmods.com/divinityoriginalsin2/mods/101?tab=files) · [Megalooot author instructions](https://www.nexusmods.com/divinityoriginalsin2/mods/167)
 
 ## Set up and launch
 
-1. Start Definitive Edition once through your storefront, create or select a player profile, then quit. In Modlane, link the installation folder that contains **DefEd**. Steam library discovery uses the Definitive Edition Nexus catalogue.
-2. Open **Browse Mods** and pick a Definitive Edition campaign add-on. Complete the normal Nexus download click in Modlane’s browser if prompted. For a local download, **Import mod archive** accepts a PAK or a ZIP, 7z or RAR containing PAKs.
+1. Link the installation folder that contains **Classic** or **DefEd** for the corresponding card. Create a player profile in that edition once and quit. Steam discovery prefers the Definitive Edition card.
+2. Open **Browse Mods** for the linked edition. Complete the normal Nexus download click in Modlane’s browser if prompted. **Import mod archive** accepts a local PAK, ZIP, 7z or RAR.
 3. Use **Default** for newly prepared downloads, or create a preset and add the downloads you want. For author-specified order, use **Load earlier** and **Load later**. Modlane puts declared dependencies before the mods that require them and shows the resulting order in the launch review.
-4. Select **Launch Modded**, review the active profile and resolve any missing requirements. Once ready, **Launch selected preset** stages the files and starts Definitive Edition. **Launch Vanilla** prepares the same profile with user add-ons disabled.
-5. To bring back the folders and load order you started with, quit the game and choose **Game options → Restore previous Divinity setup**. Use the same action if a switch was interrupted. If a switched folder or load order gained files or was edited, Modlane can keep a recovery copy and show its location.
+4. Select **Launch Modded**. Modlane starts the game automatically once the selected files pass their checks. Missing files or incompatible editions appear beside the affected mods.
+5. To bring back the folders and load order you started with, quit and choose **Game options → Restore previous Divinity setup**. Use the same action after an interrupted switch. Modlane shows the recovery location when it keeps edits from the switched setup.
 
 Use a fresh save for each test setup. The game can retain effects of mods and Gift Bags inside an existing save.
 
 ## First real-game checks
 
 - Launch vanilla from Modlane, start a new campaign and quit.
-- Download a small Definitive Edition add-on with a visible effect and no extender or external dependency. Add it to a new preset, launch and check the effect on a separate test save.
+- On the Classic card with the six saved downloads, select Default and launch modded. Check a visible effect such as movement speed or a changed texture on a Classic test save.
 - Quit, launch vanilla again and check the effect is absent in a vanilla test save. Quit and restore the previous setup. Confirm the original mod list returns and your saves are visible.
 
 ## Coverage
 
-Script Extender-dependent mods, standalone adventures, overrides without module metadata, split or solid PAKs, and loose or native mods need dedicated setup support. Modlane pauses when it finds known external loaders, loose mod folders or Steam Workshop items that may reload at startup. Keep the original manager available if you already use those setups. Local metadata and Nexus declarations cover known dependencies and conflicts. Check the selected file’s author notes for additional requirements and gameplay compatibility. Real-game and storefront acceptance are pending.
+Script Extender-dependent mods, standalone adventures, split or solid PAKs, native loaders and Steam Workshop isolation require separate support. Supported loose data is limited to campaign module files under Mods and game assets under Public. Modlane reads the archive metadata and the available Nexus declarations. Real-game and storefront acceptance are pending.
 
-The Definitive Edition has its own Nexus catalogue and mod format. See [Definitive Edition Nexus mods](https://www.nexusmods.com/divinityoriginalsin2definitiveedition/mods/) and [Larian’s Definitive Edition guidance](https://docs.larian.game/Definitive_Edition).
+The game editions have separate mod catalogues. Use each edition’s files for its own profile. [Classic Nexus mods](https://www.nexusmods.com/divinityoriginalsin2/mods/) · [Definitive Edition Nexus mods](https://www.nexusmods.com/divinityoriginalsin2definitiveedition/mods/) · [Larian’s edition guidance](https://docs.larian.game/Definitive_Edition)

@@ -1,7 +1,11 @@
 # Modlane — current tester guide
 
-6 November 2026 · Modlane 0.3.19 · Windows x64 testing beta
+6 November 2026 · Modlane 0.3.20 · Windows x64 testing beta
 
+
+## Divinity Classic setup and launch — 0.3.20
+
+Open the original Divinity card and use Launch Modded with the existing Default preset. Modlane prepares saved PAKs and supported loose game data, then activates them and launches Classic. If you have never played Classic, create its player profile once in-game. Follow the [Divinity guide](DIVINITY_SUPPORT.md#if-both-launch-buttons-were-greyed-out).
 
 ## Divinity: Original Sin 2 Definitive Edition — 0.3.19
 

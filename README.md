@@ -7,6 +7,10 @@ A Windows companion for finding Nexus mods, organising downloads, inspecting exi
 Choose the **Modlane-x.y.z-x64.exe** installer for normal use. The ZIP is a portable copy. The `.modlane-update` file and `modlane-release.json` are used by the installed app's updater.
 
 
+## Divinity Classic setup and launch — 0.3.20
+
+Open the original Divinity card and use Launch Modded with the existing Default preset. Modlane prepares saved PAKs and supported loose game data, then activates them and launches Classic. If you have never played Classic, create its player profile once in-game. Follow the [Divinity guide](DIVINITY_SUPPORT.md#if-both-launch-buttons-were-greyed-out).
+
 ## Divinity: Original Sin 2 Definitive Edition — 0.3.19
 
 Use Browse Mods to download campaign add-ons, add them to a preset, then choose Launch Modded. Launch Vanilla starts the main campaign with user add-ons disabled. Modlane keeps the previous Mods folder and load order for restoration. Follow the [Divinity guide and first real-game checks](DIVINITY_SUPPORT.md#first-real-game-checks).
