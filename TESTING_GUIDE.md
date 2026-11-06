@@ -1,7 +1,11 @@
 # Modlane — current tester guide
 
-6 November 2026 · Modlane 0.3.20 · Windows x64 testing beta
+6 November 2026 · Modlane 0.3.21 · Windows x64 testing beta
 
+
+## Divinity Classic first launch — 0.3.21
+
+If Open Classic reported Invalid file path, update Modlane and retry from your existing Classic preset. Create the Classic player profile in the game, quit, and choose Launch Modded again. [First-launch instructions](DIVINITY_SUPPORT.md#if-open-classic-said-invalid-file-path)
 
 ## Divinity Classic setup and launch — 0.3.20
 

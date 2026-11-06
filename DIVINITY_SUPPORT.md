@@ -8,6 +8,12 @@ Open your original Divinity game card. It now shows **Classic** and keeps its ex
 
 The Classic workflow covers the PAK installation route used by Fast Run Speed, Level Up All Equipment, Free Pet Pal and Crafting Overhaul, the loose Public assets used by HQ World, and the loose Public and Mods trees used by Megalooot. Modlane uses the Megalooot variant you downloaded. HQ World’s 1v5 patch requires the 1v4 One pack and loads over it. [HQ World files](https://www.nexusmods.com/divinityoriginalsin2/mods/101?tab=files) · [Megalooot author instructions](https://www.nexusmods.com/divinityoriginalsin2/mods/167)
 
+## If Open Classic said Invalid file path
+
+Update to Modlane 0.3.21 or later. Close Divinity, open the existing **Classic** card and select your preset. Choose **Launch Modded → Open Classic**, create a Classic player profile in-game, then quit and choose **Launch Modded** again. Keep your existing preset and downloads.
+
+The in-game message about supporting only Definitive Edition add-ons identifies Definitive Edition. That edition has a separate player profile and mod list. Use the Classic card to play the Classic preset. [Larian’s edition guidance](https://docs.larian.game/Definitive_Edition)
+
 ## Set up and launch
 
 1. Link the installation folder that contains **Classic** or **DefEd** for the corresponding card. Create a player profile in that edition once and quit. Steam discovery prefers the Definitive Edition card.
