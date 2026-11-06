@@ -7,6 +7,10 @@ A Windows companion for finding Nexus mods, organising downloads, inspecting exi
 Choose the **Modlane-x.y.z-x64.exe** installer for normal use. The ZIP is a portable copy. The `.modlane-update` file and `modlane-release.json` are used by the installed app's updater.
 
 
+## Divinity Definitive Edition card — 0.3.22
+
+Find Definitive Edition in Your games. If you already linked Classic, open the Definitive Edition card under Other edition of your game and choose Use linked installation. Scan Steam libraries can also find both installed editions. Use Definitive Edition’s own Browse Mods and presets. [Edition setup instructions](DIVINITY_SUPPORT.md#open-definitive-edition-from-your-games)
+
 ## Divinity Classic first launch — 0.3.21
 
 If Open Classic reported Invalid file path, update Modlane and retry from your existing Classic preset. Create the Classic player profile in the game, quit, and choose Launch Modded again. [First-launch instructions](DIVINITY_SUPPORT.md#if-open-classic-said-invalid-file-path)

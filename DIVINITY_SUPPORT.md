@@ -2,6 +2,12 @@
 
 Modlane supports the Classic and Definitive Edition main campaigns as separate game cards. **Launch Modded** prepares selected saved archives, places PAKs and supported loose game data, writes the active profile’s load order and starts the edition shown. **Launch Vanilla** starts the same edition without user add-ons.
 
+## Open Definitive Edition from Your games
+
+Open **Games** and choose **Divinity: Original Sin 2 – Definitive Edition**. If only Classic is linked, find the Definitive Edition card under **Other edition of your game**, then choose **Use linked installation**. Modlane checks for the Definitive Edition executable in the same folder and creates a separate card and Default preset. You can also use **Scan Steam libraries** to link each edition whose executable is present.
+
+On the Definitive Edition card, use **Browse Mods** to get Definitive Edition downloads and add them to a preset. **Launch Modded** uses those files and the Definitive Edition profile. The Classic card keeps its own downloads and presets. [Definitive Edition Nexus catalogue](https://www.nexusmods.com/games/divinityoriginalsin2definitiveedition) · [Larian’s edition guidance](https://docs.larian.game/Definitive_Edition)
+
 ## If both launch buttons were greyed out
 
 Open your original Divinity game card. It now shows **Classic** and keeps its existing downloads and Default preset. Choose **Launch Modded**. Modlane checks the files already saved, including downloads previously cleared from the queue. If you have never created a Classic player profile, use **Open Classic**, create it in-game, quit and choose **Launch Modded** again. Classic and Definitive Edition have separate player profiles and saves.
@@ -16,7 +22,7 @@ The in-game message about supporting only Definitive Edition add-ons identifies 
 
 ## Set up and launch
 
-1. Link the installation folder that contains **Classic** or **DefEd** for the corresponding card. Create a player profile in that edition once and quit. Steam discovery prefers the Definitive Edition card.
+1. Link the installation folder that contains **Classic** or **DefEd** for the corresponding card. Steam can install both in one folder. Create a player profile in the edition you want to play once and quit.
 2. Open **Browse Mods** for the linked edition. Complete the normal Nexus download click in Modlane’s browser if prompted. **Import mod archive** accepts a local PAK, ZIP, 7z or RAR.
 3. Use **Default** for newly prepared downloads, or create a preset and add the downloads you want. For author-specified order, use **Load earlier** and **Load later**. Modlane puts declared dependencies before the mods that require them and shows the resulting order in the launch review.
 4. Select **Launch Modded**. Modlane starts the game automatically once the selected files pass their checks. Missing files or incompatible editions appear beside the affected mods.
@@ -27,6 +33,7 @@ Use a fresh save for each test setup. The game can retain effects of mods and Gi
 ## First real-game checks
 
 - Launch vanilla from Modlane, start a new campaign and quit.
+- On the Definitive Edition card, download a supported Definitive Edition add-on, put it in a preset and check a visible effect on a Definitive Edition test save.
 - On the Classic card with the six saved downloads, select Default and launch modded. Check a visible effect such as movement speed or a changed texture on a Classic test save.
 - Quit, launch vanilla again and check the effect is absent in a vanilla test save. Quit and restore the previous setup. Confirm the original mod list returns and your saves are visible.
 

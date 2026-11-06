@@ -1,7 +1,11 @@
 # Modlane — current tester guide
 
-6 November 2026 · Modlane 0.3.21 · Windows x64 testing beta
+6 November 2026 · Modlane 0.3.22 · Windows x64 testing beta
 
+
+## Divinity Definitive Edition card — 0.3.22
+
+Find Definitive Edition in Your games. If you already linked Classic, open the Definitive Edition card under Other edition of your game and choose Use linked installation. Scan Steam libraries can also find both installed editions. Use Definitive Edition’s own Browse Mods and presets. [Edition setup instructions](DIVINITY_SUPPORT.md#open-definitive-edition-from-your-games)
 
 ## Divinity Classic first launch — 0.3.21
 
