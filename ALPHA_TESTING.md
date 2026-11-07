@@ -7,6 +7,10 @@
 5. Later releases are available in Settings → Updates → Check for updates → Download update → Restart & update. Versions before 0.3.15 call this App updates. Portable copies use the new portable ZIP.
 
 
+## Elden Ring setup preview — 0.3.26
+
+Open Elden Ring → Game Setup on a clean Steam 1.17.2 installation. Choose Regular mods or The Convergence, with Include Seamless Co-op for either. Use fresh characters for the [first game checks](ELDEN_RING_SUPPORT.md#first-game-checks).
+
 ## Download browser ad blocking — 0.3.23
 
 Modlane's download browser blocks ads by default. Click **Ad blocker** at the top of the browser to switch it off or on and reload the page. Modlane remembers your choice. Nexus still requires the **Slow Download** click and may lower its free-download speed cap while blocking is on. [Browser checks](TESTING_GUIDE.md#download-browser-ad-blocking--0323).
@@ -35,7 +39,7 @@ Follow [the five small tests](BG3_SUPPORT.md#current-small-test-list), then see 
 
 Check linking/search/favourites, a small Nexus download, parallel downloads, progress/cancel, game filtering, My Mods cards and the app updater. Send the developer your app version, game, steps taken, expected/actual result, and screenshots if useful. Settings can export a troubleshooting report without credentials/personal installation paths.
 
-Only test installation/update/uninstall on the formats explicitly supported by Modlane, using a separate test save. A Nexus listing alone is not an installation adapter. Read-only detection and archive removal do not adopt a manually installed mod. BG3 has the explicitly approved experimental setup route above. Elden Ring remains read-only. External manager instructions still apply to externally installed mods.
+Only test installation/update/uninstall on the formats explicitly supported by Modlane, using a separate test save. A Nexus listing alone is not an installation adapter. Read-only detection and archive removal do not adopt a manually installed mod. BG3 has the explicitly approved experimental setup route above. The Elden Ring preview uses a clean Steam setup and fresh characters. [Elden Ring setup guide](ELDEN_RING_SUPPORT.md) External manager instructions still apply to externally installed mods.
 
 My Mods → Update refreshes current Nexus requirements before downloading. For supported managed installations, Review downloaded update creates a new local preset, includes unambiguous cached requirements, and opens the normal installation review. Previous presets/archives remain until you choose removal. Unknown version comparisons and optional/alternate files require selection on Nexus. Offline checks retain cached information; retry with Check for updates when online.
 

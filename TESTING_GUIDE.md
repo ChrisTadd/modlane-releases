@@ -3,6 +3,10 @@
 7 November 2026 · Modlane 0.3.25 · Windows x64 testing beta
 
 
+## Elden Ring setup preview — 0.3.26
+
+Open Elden Ring → Game Setup on a clean Steam 1.17.2 installation. Choose Regular mods or The Convergence, with Include Seamless Co-op for either. Use fresh characters for the [first game checks](ELDEN_RING_SUPPORT.md#first-game-checks).
+
 ## Shared Divinity Script Extender — 0.3.25
 
 Use Launch Modded on the Definitive Edition card. The same updater now serves the selected PAKs that need it, including Huntsman 1.3.1. Modlane reuses the updater you prepared for Unique Loot Drops. [Setup and test steps](DIVINITY_SUPPORT.md#launch-a-preset-that-needs-script-extender)
