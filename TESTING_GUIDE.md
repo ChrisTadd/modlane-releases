@@ -3,6 +3,10 @@
 7 November 2026 · Modlane 0.3.25 · Windows x64 testing beta
 
 
+## Check the Elden Ring Steam folder — 0.3.27
+
+Open **Elden Ring → Game Setup → Check Steam folder**. Review older files that remained after Steam verification and move recognised extras to a restorable backup. Existing Convergence folders can be inspected separately. [Check the Steam folder](ELDEN_RING_SUPPORT.md#check-the-steam-folder)
+
 ## Elden Ring setup preview — 0.3.26
 
 Open Elden Ring → Game Setup on a clean Steam 1.17.2 installation. Choose Regular mods or The Convergence, with Include Seamless Co-op for either. Use fresh characters for the [first game checks](ELDEN_RING_SUPPORT.md#first-game-checks).

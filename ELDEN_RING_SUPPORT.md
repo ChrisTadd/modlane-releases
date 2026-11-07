@@ -1,6 +1,16 @@
 # Elden Ring setup preview
 
-Use **Elden Ring → Game Setup** on Windows with the worldwide Steam release of Elden Ring **1.17.2**. Verify the Steam files and confirm a clean **Game** folder before enabling the preview. Keep any existing Convergence or Seamless Co-op playthrough on its current launcher and characters. **My Mods → Active / installed → Detect current mods** can inspect that setup separately.
+Use **Elden Ring → Game Setup** on Windows with the worldwide Steam release of Elden Ring **1.17.2**. Keep any existing Convergence or Seamless Co-op playthrough in its own folder.
+
+## Check the Steam folder
+
+1. Open **Game Setup → Check Steam folder**. If Steam verification repaired the original files, older mod files can still be present. Modlane groups the recognised leftovers and shows the exact names under **Files and folders found**.
+2. Choose **Move to backup** to move the reviewed extras to a restorable folder on the game drive. The original Steam launcher, game data and saves stay in place. For an unfamiliar or linked item, use **Open Steam Game folder** to inspect it before continuing.
+3. If you have already verified the game files in Steam, choose **Steam installation is clean**. Otherwise use **Properties → Installed Files → Verify integrity of game files** first. Launch with a fresh character when you test a preview.
+
+Open **Check Steam folder** again under Game options to choose **Restore backed-up files**. This also recovers an interrupted move. If a new file occupies a restore location, both copies are kept for you to review. [Steam verification guide](https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB)
+
+Under **Existing Convergence setup**, choose **Add existing Convergence folder** to see its version and whether it includes Seamless Co-op. This is an inspection route for existing setups. The Convergence team added support for Elden Ring 1.17.2 in Convergence 3.0.4. Use a fresh 3.0.4.1 copy for this preview. [Convergence changelog](https://wiki.convergencemod.com/wiki/Gameplay)
 
 ## Regular mods
 
@@ -12,7 +22,7 @@ For supported shared assets, put the preferred mod first in the priority list. T
 
 ## The Convergence
 
-Select **The Convergence** under **Modded setup**. It requires **Shadow of the Erdtree**. Choose **Launch Modded → Create fresh Convergence folder**, then install **3.0.4.1** there using the official Convergence Launcher. The new folder needs to be on the same drive as the Steam game. Return to Modlane and choose **Launch Modded** again. Modlane verifies the official files and starts the selected Convergence profile. The preview uses the base overhaul and its built-in requirements. Regular preset mods are left out of this mode. [Official Convergence Launcher](https://github.com/The-Convergence-Team/ConvergenceER-Public/releases/latest)
+Select **The Convergence** under **Modded setup**. It requires **Shadow of the Erdtree**. Choose **Launch Modded → Create fresh Convergence folder**, then install **3.0.4.1** there using the official Convergence Launcher. Modlane creates this folder on the game’s drive, even when your mod library is elsewhere. Return to Modlane and choose **Launch Modded** again. Modlane verifies the official files and starts the selected Convergence profile. The preview uses the base overhaul and its built-in requirements. Regular preset mods are left out of this mode. [Official Convergence Launcher](https://github.com/The-Convergence-Team/ConvergenceER-Public/releases/latest)
 
 ## Include Seamless Co-op
 
