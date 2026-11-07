@@ -7,6 +7,10 @@ A Windows companion for finding Nexus mods, organising downloads, inspecting exi
 Choose the **Modlane-x.y.z-x64.exe** installer for normal use. The ZIP is a portable copy. The `.modlane-update` file and `modlane-release.json` are used by the installed app's updater.
 
 
+## Play Reforged with friends — 0.3.29
+
+Choose **Reforged → Include Seamless Co-op** to use the offline launcher with invasions off. The co-op password dialog shows the saved password and offers **Copy** and **Paste**. Once you verify the Steam folder, Elden Ring opens on **Browse Mods**. [Reforged setup](ELDEN_RING_SUPPORT.md#elden-ring-reforged)
+
 ## Elden Ring Reforged and Seamless Co-op — 0.3.28
 
 Open **Reforged** for the official 3.59 GB Reforged ZIP and its launcher. **Convergence** has a separate setup tab. **Seamless Co-op** shows when the supported download is already available and provides the password and gameplay options for regular mods and Convergence. [Reforged setup](ELDEN_RING_SUPPORT.md#elden-ring-reforged) · [Seamless Co-op settings](ELDEN_RING_SUPPORT.md#include-seamless-co-op)

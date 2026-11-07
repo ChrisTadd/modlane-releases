@@ -7,6 +7,10 @@
 5. Later releases are available in Settings → Updates → Check for updates → Download update → Restart & update. Versions before 0.3.15 call this App updates. Portable copies use the new portable ZIP.
 
 
+## Play Reforged with friends — 0.3.29
+
+Choose **Reforged → Include Seamless Co-op** to use the offline launcher with invasions off. The co-op password dialog shows the saved password and offers **Copy** and **Paste**. Once you verify the Steam folder, Elden Ring opens on **Browse Mods**. [Reforged setup](ELDEN_RING_SUPPORT.md#elden-ring-reforged)
+
 ## Elden Ring Reforged and Seamless Co-op — 0.3.28
 
 Open **Reforged** for the official 3.59 GB Reforged ZIP and its launcher. **Convergence** has a separate setup tab. **Seamless Co-op** shows when the supported download is already available and provides the password and gameplay options for regular mods and Convergence. [Reforged setup](ELDEN_RING_SUPPORT.md#elden-ring-reforged) · [Seamless Co-op settings](ELDEN_RING_SUPPORT.md#include-seamless-co-op)

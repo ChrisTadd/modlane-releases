@@ -2,6 +2,8 @@
 
 Use **Elden Ring → Game Setup** on Windows with the worldwide Steam release of Elden Ring **1.17.2**. Keep any existing Convergence or Seamless Co-op playthrough in its own folder.
 
+**Game Setup** is the rightmost tab. Elden Ring opens there until you verify the Steam folder. After verification, reopening the game page takes you to **Browse Mods**.
+
 ## Check the Steam folder
 
 1. Open **Game Setup → Check Steam folder**. If Steam verification repaired the original files, older mod files can still be present. Modlane groups the recognised leftovers and shows the exact names under **Files and folders found**.
@@ -26,19 +28,23 @@ Open **Convergence** and choose **Use Convergence for this preset**. It requires
 
 ## Include Seamless Co-op
 
-Open the **Seamless Co-op** tab. **Ready** means Modlane already has the supported **2.0.2** ZIP for regular mods and Convergence. **Check saved download** reuses an archive already in Modlane. If it is missing, choose **Open Seamless Co-op files** and complete the normal Nexus download, or choose the official ZIP you already have. A Co-op copy detected in an older external Convergence folder is shown separately for inspection. [Official Seamless Co-op file](https://www.nexusmods.com/eldenring/mods/510?tab=files&file_id=52792)
+Open the **Seamless Co-op** tab. **Ready** means Modlane already has the supported **2.0.2** ZIP for regular mods, Convergence and Reforged. **Check saved download** reuses an archive already in Modlane. If it is missing, choose **Open Seamless Co-op files** and complete the normal Nexus download, or choose the official ZIP you already have. A Co-op copy detected in an older external Convergence folder is shown separately for inspection. [Official Seamless Co-op file](https://www.nexusmods.com/eldenring/mods/510?tab=files&file_id=52792)
 
-Tick **Include Seamless Co-op**, set a password and open **Configure co-op options**. Invasions, Rot Essence, summons, spectating, overhead display, startup logos, Steam IDs, volume, language and six scaling values are available. Modlane saves changes separately for each preset and mode and writes them to the preview’s private settings. The host's settings govern invasions, scaling, Rot Essence and summons. Everyone needs the same supported versions and session password. Modlane handles separate preview save names. [Seamless Co-op configuration guide](https://ersc-docs.github.io/seamless-modding/)
+For regular mods or Convergence, tick **Include Seamless Co-op** and open **Set co-op password**. The saved password is visible. **Copy** puts it on your clipboard to share, and **Paste** puts a friend’s password into the field. Choose **Save password** to use it for this preset and mode. **Configure co-op options** covers invasions, Rot Essence, summons, spectating, overhead display, startup logos, Steam IDs, volume, language and six scaling values. The host's settings govern invasions, scaling, Rot Essence and summons. Everyone needs the same supported versions and session password. Modlane handles separate preview save names. [Seamless Co-op configuration guide](https://ersc-docs.github.io/seamless-modding/)
 
 ## ELDEN RING Reforged
 
-Open **Reforged → Download Reforged** for the full **2.3.8.1** ZIP (3.59 GB). Complete the usual Nexus download click. If you already have the official full ZIP, use **Use an official ZIP I already have**. Modlane prepares the archive in its own folder. Choose **Use Reforged for this preset → Launch Modded**, then follow the official offline launcher’s setup and save prompts. The standalone Co-op settings and ordinary mod overlays apply to the regular and Convergence routes. Reforged manages its own setup. [Official Reforged file](https://www.nexusmods.com/eldenring/mods/541?tab=files&file_id=52909)
+Open **Reforged → Download Reforged** for the full **2.3.8.1** ZIP (3.59 GB). Complete the usual Nexus download click. If you already have the official full ZIP, use **Use an official ZIP I already have**. Modlane prepares the archive in its own folder. [Official Reforged file](https://www.nexusmods.com/eldenring/mods/541?tab=files&file_id=52909)
+
+1. Choose **Use Reforged for this preset** and tick **Include Seamless Co-op**. A **Ready** status means your existing Co-op download can be reused.
+2. Choose **Set co-op password**, enter or paste the group password, and save it. Select the same in-game difficulty as your friends before joining a session. Reforged’s Seamless Co-op route keeps invasions off and uses Reforged’s `.err` saves.
+3. Choose **Launch Modded**. If the official launcher opens **ELDEN RING Reforged Settings**, press **Esc** to leave it with the defaults and follow any save prompt. **Online mode** in that menu is for Reforged’s own multiplayer service. Seamless uses the **Offline or Seamless** launcher. [Reforged multiplayer guide](https://err.fandom.com/wiki/Multiplayer)
 
 ## First game checks
 
 1. With a clean Steam setup, launch a preset containing one small visual mod. Check its effect with a fresh character, quit, and relaunch the preset to check that character appears again.
 2. Switch to **Launch Vanilla** and check that the mod and preview character are absent. Quit before switching again.
 3. Install a fresh copy of Convergence in the folder Modlane creates. Check that Convergence reaches its main menu and start a new character. Try the co-op checkbox with another new character, then check joining and reconnecting with a friend on the matching setup.
-4. Use the official full Reforged ZIP in a separate preset. Follow its launcher prompts, then start a new character and check that it loads again after restarting.
+4. Use the official full Reforged ZIP in a separate preset. Launch with Co-op, start a new character, and try joining a friend on the same difficulty. Quit, turn off Co-op, and check that Reforged opens the same character solo.
 
 The preview covers supported loose asset replacements, standalone x64 DLLs and the specified releases of Convergence, Seamless Co-op and Reforged. Check the author’s instructions for mod installers, randomizers, merges, game-folder proxy loaders or overhaul add-ons. The first live game and multiplayer checks are pending.
