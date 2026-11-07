@@ -1,7 +1,11 @@
 # Modlane — current tester guide
 
-7 November 2026 · Modlane 0.3.23 · Windows x64 testing beta
+7 November 2026 · Modlane 0.3.24 · Windows x64 testing beta
 
+
+## Unique Loot Drops setup — 0.3.24
+
+On the Definitive Edition card, open Presets and choose Setup steps on Unique Loot Drops. Check the saved main archive, prepare the official Divinity Script Extender, then launch the preset. [Step-by-step guide](DIVINITY_SUPPORT.md#set-up-unique-loot-drops)
 
 ## Download browser ad blocking — 0.3.23
 

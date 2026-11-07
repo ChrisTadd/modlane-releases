@@ -37,8 +37,16 @@ Use a fresh save for each test setup. The game can retain effects of mods and Gi
 - On the Classic card with the six saved downloads, select Default and launch modded. Check a visible effect such as movement speed or a changed texture on a Classic test save.
 - Quit, launch vanilla again and check the effect is absent in a vanilla test save. Quit and restore the previous setup. Confirm the original mod list returns and your saves are visible.
 
+## Set up Unique Loot Drops
+
+1. On the **Definitive Edition** card, open **Presets** and choose **Setup steps** on Unique Loot Drops. If it says the archive contains an installer, click **Check saved archive**. Modlane recognises the reviewed **Unique Loot Drops 5.6.2025** main file and prepares a local copy without the bundled editor tools and unrelated installer. Your original ZIP stays saved.
+2. Choose **Prepare Script Extender**. Modlane checks the official Norbyte updater and saves it to your library. [Norbyte’s updater](https://github.com/Norbyte/ositools/releases/tag/updater_v5)
+3. Include Unique Loot Drops in your preset and choose **Launch Modded**. Let the extender finish updating on first launch. Before loading a save, confirm the game shows **Script Extender 54 or newer** at the main menu. Check for the mod’s settings book at the start of Fort Joy on a test save. [Author’s mod page](https://www.nexusmods.com/divinityoriginalsin2definitiveedition/mods/322?tab=description)
+
+If the main archive is missing, download [Unique Loot Drops 5.6.2025](https://www.nexusmods.com/divinityoriginalsin2definitiveedition/mods/322?tab=files&file_id=2389) through Modlane. Start with the main file. The vendor, world drops, and Shadow Realm downloads are optional add-ons with their own setup requirements.
+
 ## Coverage
 
-Script Extender-dependent mods, standalone adventures, split or solid PAKs, native loaders and Steam Workshop isolation require separate support. Supported loose data is limited to campaign module files under Mods and game assets under Public. Modlane reads the archive metadata and the available Nexus declarations. Real-game and storefront acceptance are pending.
+The reviewed Unique Loot Drops main file has a dedicated Script Extender setup. Other extender-dependent mods, standalone adventures, split or solid PAKs, native loaders and Steam Workshop isolation require separate support. Supported loose data is limited to campaign module files under Mods and game assets under Public. Modlane reads the archive metadata and the available Nexus declarations. Real-game and storefront acceptance are pending.
 
 The game editions have separate mod catalogues. Use each edition’s files for its own profile. [Classic Nexus mods](https://www.nexusmods.com/divinityoriginalsin2/mods/) · [Definitive Edition Nexus mods](https://www.nexusmods.com/divinityoriginalsin2definitiveedition/mods/) · [Larian’s edition guidance](https://docs.larian.game/Definitive_Edition)

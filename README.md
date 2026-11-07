@@ -7,6 +7,10 @@ A Windows companion for finding Nexus mods, organising downloads, inspecting exi
 Choose the **Modlane-x.y.z-x64.exe** installer for normal use. The ZIP is a portable copy. The `.modlane-update` file and `modlane-release.json` are used by the installed app's updater.
 
 
+## Unique Loot Drops setup — 0.3.24
+
+On the Definitive Edition card, open Presets and choose Setup steps on Unique Loot Drops. Check the saved main archive, prepare the official Divinity Script Extender, then launch the preset. [Step-by-step guide](DIVINITY_SUPPORT.md#set-up-unique-loot-drops)
+
 ## Download browser ad blocking — 0.3.23
 
 Modlane's download browser blocks ads by default. Click **Ad blocker** at the top of the browser to switch it off or on and reload the page. Modlane remembers your choice. Nexus still requires the **Slow Download** click and may lower its free-download speed cap while blocking is on. [Try the browser checks](TESTING_GUIDE.md#download-browser-ad-blocking--0323).
