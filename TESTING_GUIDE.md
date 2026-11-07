@@ -3,6 +3,10 @@
 7 November 2026 · Modlane 0.3.25 · Windows x64 testing beta
 
 
+## Elden Ring Reforged and Seamless Co-op — 0.3.28
+
+Open **Reforged** for the official 3.59 GB Reforged ZIP and its launcher. **Convergence** has a separate setup tab. **Seamless Co-op** shows when the supported download is already available and provides the password and gameplay options for regular mods and Convergence. [Reforged setup](ELDEN_RING_SUPPORT.md#elden-ring-reforged) · [Seamless Co-op settings](ELDEN_RING_SUPPORT.md#include-seamless-co-op)
+
 ## Check the Elden Ring Steam folder — 0.3.27
 
 Open **Elden Ring → Game Setup → Check Steam folder**. Review older files that remained after Steam verification and move recognised extras to a restorable backup. Existing Convergence folders can be inspected separately. [Check the Steam folder](ELDEN_RING_SUPPORT.md#check-the-steam-folder)
