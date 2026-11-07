@@ -7,6 +7,10 @@ A Windows companion for finding Nexus mods, organising downloads, inspecting exi
 Choose the **Modlane-x.y.z-x64.exe** installer for normal use. The ZIP is a portable copy. The `.modlane-update` file and `modlane-release.json` are used by the installed app's updater.
 
 
+## Shared Divinity Script Extender — 0.3.25
+
+Use Launch Modded on the Definitive Edition card. The same updater now serves the selected PAKs that need it, including Huntsman 1.3.1. Modlane reuses the updater you prepared for Unique Loot Drops. [Setup and test steps](DIVINITY_SUPPORT.md#launch-a-preset-that-needs-script-extender)
+
 ## Unique Loot Drops setup — 0.3.24
 
 On the Definitive Edition card, open Presets and choose Setup steps on Unique Loot Drops. Check the saved main archive, prepare the official Divinity Script Extender, then launch the preset. [Step-by-step guide](DIVINITY_SUPPORT.md#set-up-unique-loot-drops)

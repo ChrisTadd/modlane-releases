@@ -1,7 +1,11 @@
 # Modlane — current tester guide
 
-7 November 2026 · Modlane 0.3.24 · Windows x64 testing beta
+7 November 2026 · Modlane 0.3.25 · Windows x64 testing beta
 
+
+## Shared Divinity Script Extender — 0.3.25
+
+Use Launch Modded on the Definitive Edition card. The same updater now serves the selected PAKs that need it, including Huntsman 1.3.1. Modlane reuses the updater you prepared for Unique Loot Drops. [Setup and test steps](DIVINITY_SUPPORT.md#launch-a-preset-that-needs-script-extender)
 
 ## Unique Loot Drops setup — 0.3.24
 

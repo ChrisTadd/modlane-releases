@@ -47,6 +47,12 @@ If the main archive is missing, download [Unique Loot Drops 5.6.2025](https://ww
 
 ## Coverage
 
-The reviewed Unique Loot Drops main file has a dedicated Script Extender setup. Other extender-dependent mods, standalone adventures, split or solid PAKs, native loaders and Steam Workshop isolation require separate support. Supported loose data is limited to campaign module files under Mods and game assets under Public. Modlane reads the archive metadata and the available Nexus declarations. Real-game and storefront acceptance are pending.
+The reviewed Unique Loot Drops main file has a dedicated archive cleanup. Supported Definitive Edition PAKs share the official Script Extender updater through version 60. Standalone adventures, split or solid PAKs, other native loaders and Steam Workshop isolation require separate support. Supported loose data is limited to campaign module files under Mods and game assets under Public. Modlane reads the archive metadata and the available Nexus declarations. Real-game and storefront acceptance are pending.
 
 The game editions have separate mod catalogues. Use each edition’s files for its own profile. [Classic Nexus mods](https://www.nexusmods.com/divinityoriginalsin2/mods/) · [Definitive Edition Nexus mods](https://www.nexusmods.com/divinityoriginalsin2definitiveedition/mods/) · [Larian’s edition guidance](https://docs.larian.game/Definitive_Edition)
+
+## Launch a preset that needs Script Extender
+
+1. Update to **Modlane 0.3.25** or later. Quit the game, open the **Definitive Edition** card, and choose **Launch Modded** with your existing preset.
+2. If prompted, choose **Prepare Script Extender** once, then **Launch Modded** again. Modlane reuses the updater already saved for Unique Loot Drops and checks the highest version required by the preset.
+3. Let the updater finish on first launch. Check the extender version at the game’s main menu before loading a save. **Huntsman Class Overhaul 1.3.1** requires **Script Extender 60 or newer**. Keep **OdinCore** in the preset for the Odinblade mods that require it. [Huntsman requirements](https://www.nexusmods.com/divinityoriginalsin2definitiveedition/mods/231?tab=description) · [Norbyte’s updater](https://github.com/Norbyte/ositools/releases/tag/updater_v5)
