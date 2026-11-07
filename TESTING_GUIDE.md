@@ -1,7 +1,11 @@
 # Modlane — current tester guide
 
-6 November 2026 · Modlane 0.3.22 · Windows x64 testing beta
+7 November 2026 · Modlane 0.3.23 · Windows x64 testing beta
 
+
+## Download browser ad blocking — 0.3.23
+
+Open a Nexus file in Modlane and check the toolbar says **Ad blocker on**. Click **Slow Download** and confirm the archive appears in **Downloads**. Switch the blocker off to reload the page, then restart Modlane and check that it remembers your choice. If a mod requirement page has trouble loading, switch the blocker off and retry.
 
 ## Divinity Definitive Edition card — 0.3.22
 

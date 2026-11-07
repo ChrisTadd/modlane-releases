@@ -7,6 +7,10 @@ A Windows companion for finding Nexus mods, organising downloads, inspecting exi
 Choose the **Modlane-x.y.z-x64.exe** installer for normal use. The ZIP is a portable copy. The `.modlane-update` file and `modlane-release.json` are used by the installed app's updater.
 
 
+## Download browser ad blocking — 0.3.23
+
+Modlane's download browser blocks ads by default. Click **Ad blocker** at the top of the browser to switch it off or on and reload the page. Modlane remembers your choice. Nexus still requires the **Slow Download** click and may lower its free-download speed cap while blocking is on. [Try the browser checks](TESTING_GUIDE.md#download-browser-ad-blocking--0323).
+
 ## Divinity Definitive Edition card — 0.3.22
 
 Find Definitive Edition in Your games. If you already linked Classic, open the Definitive Edition card under Other edition of your game and choose Use linked installation. Scan Steam libraries can also find both installed editions. Use Definitive Edition’s own Browse Mods and presets. [Edition setup instructions](DIVINITY_SUPPORT.md#open-definitive-edition-from-your-games)

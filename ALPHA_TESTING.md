@@ -7,6 +7,10 @@
 5. Later releases are available in Settings → Updates → Check for updates → Download update → Restart & update. Versions before 0.3.15 call this App updates. Portable copies use the new portable ZIP.
 
 
+## Download browser ad blocking — 0.3.23
+
+Modlane's download browser blocks ads by default. Click **Ad blocker** at the top of the browser to switch it off or on and reload the page. Modlane remembers your choice. Nexus still requires the **Slow Download** click and may lower its free-download speed cap while blocking is on. [Browser checks](TESTING_GUIDE.md#download-browser-ad-blocking--0323).
+
 ## The Sims 4 custom mods preview — 0.3.18
 
 Link the Windows game and choose a folder of extracted .package files. Launch custom mods uses the selected packages, and Restore previous Mods folder brings back your prior setup. Try one recognisable item in a fresh save. See the [Sims 4 setup and troubleshooting guide](SIMS4_SUPPORT.md).
