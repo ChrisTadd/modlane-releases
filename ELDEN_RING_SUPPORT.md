@@ -14,8 +14,6 @@ Seamless Co-op can recreate a `SeamlessCoop\crashdumps` folder after launch. Mod
 
 Open **Check Steam folder** again under Game options, choose **Restore backed-up files**, and select the backup you want. This also recovers an interrupted move. If a new file or folder occupies a restore location, both copies are kept for you to review. [Steam verification guide](https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB)
 
-Under **Existing Convergence setup**, choose **Add existing Convergence folder** to see its version and whether it includes Seamless Co-op. This is an inspection route for existing setups. The Convergence team added support for Elden Ring 1.17.2 in Convergence 3.0.4. Use a fresh 3.0.4.1 copy for this preview. [Convergence changelog](https://wiki.convergencemod.com/wiki/Gameplay)
-
 ## Regular mods
 
 1. Download a standalone mod from **Browse Mods** or import its ZIP, 7z or RAR in **Presets**. Start with a small visual mod whose author supports your game patch. **Default** collects downloads, or you can create an empty preset and add the mod there.
@@ -26,11 +24,17 @@ For supported shared assets, put the preferred mod first in the priority list. T
 
 ## The Convergence
 
-Open **Convergence** and choose **Use Convergence for this preset**. It requires **Shadow of the Erdtree**. Choose **Create fresh Convergence folder**, then install **3.0.4.1** there using the official Convergence Launcher. Modlane creates this folder on the game’s drive, even when your mod library is elsewhere. Return to Modlane and choose **Launch Modded**. Modlane verifies the official files and starts the selected Convergence profile. The preview uses the base overhaul and its built-in requirements. Regular preset mods are left out of this mode. [Official Convergence Launcher](https://github.com/The-Convergence-Team/ConvergenceER-Public/releases/latest)
+Open **Convergence** and choose **Use Convergence for this preset**. The preview supports the official **3.0.4.1** files with Elden Ring **1.17.2** and **Shadow of the Erdtree**. [Convergence changelog](https://wiki.convergencemod.com/wiki/Gameplay)
+
+1. Use **Add existing Convergence folder** and choose the folder containing the mod’s launcher or its `mod` and `me3` folders. Modlane can reuse a single previously linked installation when no Modlane setup folder is selected.
+2. On the same drive as Elden Ring, choose **Launch Modded**. On another drive, choose **Review copy to game drive**. Modlane shows the size and location before you approve the copy and keeps the source folder in place. Both routes verify the official mod and loader files.
+3. If your installed version is older, choose **Select existing installation** in the official Convergence Launcher and update that installation to **3.0.4.1**. If you need a new installation, expand **Set up a separate copy** and choose **Create fresh Convergence folder**. [Official Convergence Launcher](https://github.com/The-Convergence-Team/ConvergenceER-Public/releases/latest)
+
+Modlane uses the verified base overhaul and its built-in requirements. It creates its own preview saves and, when enabled, uses the shared Seamless Co-op download with your preset’s settings. The existing installation’s Co-op files and settings stay separate.
 
 ## Include Seamless Co-op
 
-Open the **Seamless Co-op** tab. **Ready** means Modlane already has the supported **2.0.2** ZIP for regular mods, Convergence and Reforged. **Check saved download** reuses an archive already in Modlane. If it is missing, choose **Open Seamless Co-op files** and complete the normal Nexus download, or choose the official ZIP you already have. A Co-op copy detected in an older external Convergence folder is shown separately for inspection. [Official Seamless Co-op file](https://www.nexusmods.com/eldenring/mods/510?tab=files&file_id=52792)
+Open the **Seamless Co-op** tab. **Ready** means Modlane already has the supported **2.0.2** ZIP for regular mods, Convergence and Reforged. **Check saved download** reuses an archive already in Modlane. If it is missing, choose **Open Seamless Co-op files** and complete the normal Nexus download, or choose the official ZIP you already have. A Co-op copy in a linked Convergence folder stays separate from Modlane’s shared copy. [Official Seamless Co-op file](https://www.nexusmods.com/eldenring/mods/510?tab=files&file_id=52792)
 
 For regular mods or Convergence, tick **Include Seamless Co-op** and open **Set co-op password**. The saved password is visible. **Copy** puts it on your clipboard to share, and **Paste** puts a friend’s password into the field. Choose **Save password** to use it for this preset and mode. **Configure co-op options** covers invasions, Rot Essence, summons, spectating, overhead display, startup logos, Steam IDs, volume, language and six scaling values. The host's settings govern invasions, scaling, Rot Essence and summons. Everyone needs the same supported versions and session password. Modlane handles separate preview save names. [Seamless Co-op configuration guide](https://ersc-docs.github.io/seamless-modding/)
 
@@ -46,7 +50,7 @@ Open **Reforged → Download Reforged** for the full **2.3.8.1** ZIP (3.59 GB). 
 
 1. With a clean Steam setup, launch a preset containing one small visual mod. Check its effect with a fresh character, quit, and relaunch the preset to check that character appears again.
 2. Switch to **Launch Vanilla** and check that the mod and preview character are absent. Quit before switching again.
-3. Install a fresh copy of Convergence in the folder Modlane creates. Check that Convergence reaches its main menu and start a new character. Try the co-op checkbox with another new character, then check joining and reconnecting with a friend on the matching setup.
+3. Link a compatible Convergence folder or set up a separate copy. Check that Convergence reaches its main menu and start a new character. Try the Co-op checkbox with another new character, then check joining and reconnecting with a friend on the matching setup.
 4. Use the official full Reforged ZIP in a separate preset. Launch with Co-op, start a new character, and try joining a friend on the same difficulty. Quit, turn off Co-op, and check that Reforged opens the same character solo.
 
 The preview covers supported loose asset replacements, standalone x64 DLLs and the specified releases of Convergence, Seamless Co-op and Reforged. Check the author’s instructions for mod installers, randomizers, merges, game-folder proxy loaders or overhaul add-ons. The first live game and multiplayer checks are pending.
