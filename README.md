@@ -7,6 +7,10 @@ A Windows companion for finding Nexus mods, organising downloads, inspecting exi
 Choose the **Modlane-x.y.z-x64.exe** installer for normal use. The ZIP is a portable copy. The `.modlane-update` file and `modlane-release.json` are used by the installed app's updater.
 
 
+## Preset shortcuts — 0.3.33
+
+Use the **Preset** dropdown next to **Launch Modded** on a supported game’s page. After the first modded launch from 0.3.33 onward, the game card can launch that game’s last used preset. Find the button at the bottom in Grid or just left of Favourite in List. [Try the preset shortcuts](TESTING_GUIDE.md#preset-shortcuts--0333)
+
 ## Open the official Convergence updater — 0.3.32
 
 Choose **Convergence → Update Convergence → Open official launcher**. Modlane downloads and checks the Windows launcher. In the launcher, select your existing folder and apply the update. Return to Modlane and choose **Check folder again**. [Convergence guide](ELDEN_RING_SUPPORT.md#the-convergence)

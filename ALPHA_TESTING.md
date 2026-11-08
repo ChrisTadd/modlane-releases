@@ -7,6 +7,10 @@
 5. Later releases are available in Settings → Updates → Check for updates → Download update → Restart & update. Versions before 0.3.15 call this App updates. Portable copies use the new portable ZIP.
 
 
+## Preset shortcuts — 0.3.33
+
+Use the **Preset** dropdown next to **Launch Modded** on a supported game’s page. After the first modded launch from 0.3.33 onward, the game card can launch that game’s last used preset. Find the button at the bottom in Grid or just left of Favourite in List. [Try the preset shortcuts](TESTING_GUIDE.md#preset-shortcuts--0333)
+
 ## Open the official Convergence updater — 0.3.32
 
 Choose **Convergence → Update Convergence → Open official launcher**. Modlane downloads and checks the Windows launcher. In the launcher, select your existing folder and apply the update. Return to Modlane and choose **Check folder again**. [Convergence guide](ELDEN_RING_SUPPORT.md#the-convergence)
