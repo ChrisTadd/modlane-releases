@@ -7,6 +7,10 @@
 5. Later releases are available in Settings → Updates → Check for updates → Download update → Restart & update. Versions before 0.3.15 call this App updates. Portable copies use the new portable ZIP.
 
 
+## Open the official Convergence updater — 0.3.32
+
+Choose **Convergence → Update Convergence → Open official launcher**. Modlane downloads and checks the Windows launcher. In the launcher, select your existing folder and apply the update. Return to Modlane and choose **Check folder again**. [Convergence guide](ELDEN_RING_SUPPORT.md#the-convergence)
+
 ## Reuse a Convergence installation — 0.3.31
 
 Link an existing official Convergence 3.0.4.1 folder for your presets. Use it in place on the game drive or review and approve a copy of the verified files from another drive. Modlane keeps its preview saves and Co-op settings separate. [Convergence guide](ELDEN_RING_SUPPORT.md#the-convergence)
