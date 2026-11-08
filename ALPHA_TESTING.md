@@ -7,6 +7,10 @@
 5. Later releases are available in Settings → Updates → Check for updates → Download update → Restart & update. Versions before 0.3.15 call this App updates. Portable copies use the new portable ZIP.
 
 
+## Elden Ring crash reports and repeat backups — 0.3.30
+
+You can launch Elden Ring with Seamless Co-op’s crash-report folder in place. Actual mod files still appear under **Check Steam folder**. New backups keep earlier sets available, and you can choose which set to restore. [Check the Steam folder](ELDEN_RING_SUPPORT.md#check-the-steam-folder)
+
 ## Play Reforged with friends — 0.3.29
 
 Choose **Reforged → Include Seamless Co-op** to use the offline launcher with invasions off. The co-op password dialog shows the saved password and offers **Copy** and **Paste**. Once you verify the Steam folder, Elden Ring opens on **Browse Mods**. [Reforged setup](ELDEN_RING_SUPPORT.md#elden-ring-reforged)

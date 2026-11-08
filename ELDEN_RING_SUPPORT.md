@@ -7,10 +7,12 @@ Use **Elden Ring → Game Setup** on Windows with the worldwide Steam release of
 ## Check the Steam folder
 
 1. Open **Game Setup → Check Steam folder**. If Steam verification repaired the original files, older mod files can still be present. Modlane groups the recognised leftovers and shows the exact names under **Files and folders found**.
-2. Choose **Move to backup** to move the reviewed extras to a restorable folder on the game drive. The original Steam launcher, game data and saves stay in place. For an unfamiliar or linked item, use **Open Steam Game folder** to inspect it before continuing.
+2. Choose **Move to backup** to move the reviewed extras to a separate restorable backup on the game drive. Each move keeps earlier backups available. The original Steam launcher, game data and saves stay in place. For an unfamiliar or linked item, use **Open Steam Game folder** to inspect it before continuing.
 3. If you have already verified the game files in Steam, choose **Steam installation is clean**. Otherwise use **Properties → Installed Files → Verify integrity of game files** first. Launch with a fresh character when you test a preview.
 
-Open **Check Steam folder** again under Game options to choose **Restore backed-up files**. This also recovers an interrupted move. If a new file occupies a restore location, both copies are kept for you to review. [Steam verification guide](https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB)
+Seamless Co-op can recreate a `SeamlessCoop\crashdumps` folder after launch. Modlane allows an empty folder or one containing only Windows crash reports, so you can leave it there. A DLL, launcher or other mod file still appears for review. [Seamless Co-op download and changelog](https://www.nexusmods.com/eldenring/mods/510?tab=files)
+
+Open **Check Steam folder** again under Game options, choose **Restore backed-up files**, and select the backup you want. This also recovers an interrupted move. If a new file or folder occupies a restore location, both copies are kept for you to review. [Steam verification guide](https://help.steampowered.com/en/faqs/view/0C48-FCBD-DA71-93EB)
 
 Under **Existing Convergence setup**, choose **Add existing Convergence folder** to see its version and whether it includes Seamless Co-op. This is an inspection route for existing setups. The Convergence team added support for Elden Ring 1.17.2 in Convergence 3.0.4. Use a fresh 3.0.4.1 copy for this preview. [Convergence changelog](https://wiki.convergencemod.com/wiki/Gameplay)
 

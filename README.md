@@ -7,6 +7,10 @@ A Windows companion for finding Nexus mods, organising downloads, inspecting exi
 Choose the **Modlane-x.y.z-x64.exe** installer for normal use. The ZIP is a portable copy. The `.modlane-update` file and `modlane-release.json` are used by the installed app's updater.
 
 
+## Elden Ring crash reports and repeat backups — 0.3.30
+
+You can launch Elden Ring with Seamless Co-op’s crash-report folder in place. Actual mod files still appear under **Check Steam folder**. New backups keep earlier sets available, and you can choose which set to restore. [Check the Steam folder](ELDEN_RING_SUPPORT.md#check-the-steam-folder)
+
 ## Play Reforged with friends — 0.3.29
 
 Choose **Reforged → Include Seamless Co-op** to use the offline launcher with invasions off. The co-op password dialog shows the saved password and offers **Copy** and **Paste**. Once you verify the Steam folder, Elden Ring opens on **Browse Mods**. [Reforged setup](ELDEN_RING_SUPPORT.md#elden-ring-reforged)
