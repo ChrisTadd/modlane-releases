@@ -3,6 +3,10 @@
 8 November 2026 · Modlane 0.3.33 · Windows x64 testing beta
 
 
+## Play EldenVins solo or with friends — 0.3.37
+
+Open **EldenVins → Prepare EldenVins**, select it for a preset, then launch and check the custom menu images with a fresh character. Turn on **Include Seamless Co-op** and try joining a friend on the same versions. [EldenVins guide](ELDEN_RING_SUPPORT.md#eldenvins)
+
 ## Recover Convergence characters — 0.3.36
 
 In **Convergence**, match the **Include Seamless Co-op** setting to your earlier playthrough. Choose **Recover existing characters → Copy this save**, then launch and check **Load Game**. Confirm your previous launcher can still see the original save. [Elden Ring guide](ELDEN_RING_SUPPORT.md#recover-existing-characters)

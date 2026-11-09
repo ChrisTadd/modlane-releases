@@ -54,9 +54,11 @@ Open **Reforged → Download Reforged** for the full **2.3.8.1** ZIP (3.59 GB). 
 
 ## EldenVins
 
-Choose **EldenVins → Download EldenVins 1.9.1** and finish the download on Nexus. **Show saved archive** opens its location in Windows. The full release is about 4.4 GiB. [Official EldenVins file](https://www.nexusmods.com/eldenring/mods/4709?tab=files&file_id=50309)
+1. Open **EldenVins → Prepare EldenVins** to reuse the full **1.9.1** ZIP already saved in Modlane. If you need the archive, choose **Download EldenVins 1.9.1** or **Use an official ZIP I already have**. [Official EldenVins file](https://www.nexusmods.com/eldenring/mods/4709?tab=files&file_id=50309)
+2. Modlane prepares the equipment files and runs the bundled Gideon tool to build the menu images on the game drive. It sets up portable Mod Engine 3 as needed. If Gideon asks for the game, select your linked Steam `eldenring.exe`. If setup stops after extraction, choose **Finish EldenVins setup** to retry the remaining steps. [Gideon documentation](https://github.com/ividyon/Gideon)
+3. Choose **Use EldenVins for this preset**. For Co-op, tick **Include Seamless Co-op**, reuse the shared download and set the same session password as your friends. Choose **Launch Modded** and start a fresh character. Solo and Co-op have separate preset saves.
 
-EldenVins 1.9.1 uses Mod Engine 3 and has a bundled installer. The published Seamless Co-op steps refer to an older launcher. You can save the preset’s EldenVins Co-op options now. Automatic installation and Co-op launch are pending a check of the bundled profile and installer files. [Author’s setup guide](https://www.nexusmods.com/eldenring/mods/4709?file_id=33348)
+The optional camera, FPS and other game-folder loader add-ons are outside this preview. The author recommends Borderless Window, ray tracing off, and English or Spanish (Spain) for the custom text. [Author’s setup guide](https://www.nexusmods.com/eldenring/mods/4709?file_id=33348)
 
 ## First game checks
 
@@ -64,5 +66,6 @@ EldenVins 1.9.1 uses Mod Engine 3 and has a bundled installer. The published Sea
 2. Switch to **Launch Vanilla** and check that the mod and preview character are absent. Quit before switching again.
 3. Link a compatible Convergence folder or set up a separate copy. Check that Convergence reaches its main menu and start a new character. Try the Co-op checkbox with another new character, then check joining and reconnecting with a friend on the matching setup.
 4. Use the official full Reforged ZIP in a separate preset. Launch with Co-op, start a new character, and try joining a friend on the same difficulty. Quit, turn off Co-op, and check that Reforged opens the same character solo.
+5. Prepare EldenVins, then check its custom menu images and start a solo character. Turn on Co-op, start another character, and try joining a friend using the same game and mod versions.
 
-The preview covers supported loose asset replacements, standalone x64 DLLs and the specified releases of Convergence, Seamless Co-op and Reforged. Check the author’s instructions for mod installers, randomizers, merges, game-folder proxy loaders or overhaul add-ons. The first live game and multiplayer checks are pending.
+The preview covers supported loose asset replacements, standalone x64 DLLs and the specified releases of Convergence, Seamless Co-op, Reforged and EldenVins. Check the author’s instructions for mod installers, randomizers, merges, game-folder proxy loaders or overhaul add-ons. EldenVins’ live menu generation, gameplay and multiplayer checks are pending.
