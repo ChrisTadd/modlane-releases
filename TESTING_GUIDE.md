@@ -3,6 +3,10 @@
 8 November 2026 · Modlane 0.3.33 · Windows x64 testing beta
 
 
+## Recover Convergence characters — 0.3.36
+
+In **Convergence**, match the **Include Seamless Co-op** setting to your earlier playthrough. Choose **Recover existing characters → Copy this save**, then launch and check **Load Game**. Confirm your previous launcher can still see the original save. [Elden Ring guide](ELDEN_RING_SUPPORT.md#recover-existing-characters)
+
 ## Use an existing Convergence folder — 0.3.35
 
 In **Convergence**, choose **Use this folder in place → Allow and use this folder** for your linked installation on another drive. Launch the preset with a fresh character. In **EldenVins**, try the Nexus download and check that **Show saved archive** opens the file location. [Elden Ring guide](ELDEN_RING_SUPPORT.md)

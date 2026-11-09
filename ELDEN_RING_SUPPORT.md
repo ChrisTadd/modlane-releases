@@ -32,9 +32,15 @@ Open **Convergence** and choose **Use Convergence for this preset**. The preview
 
 Modlane uses the verified base overhaul and its built-in requirements. It creates its own preview saves and, when enabled, uses the shared Seamless Co-op download with your preset’s settings. The existing installation’s Co-op files and settings stay separate.
 
+### Recover existing characters
+
+1. Close Elden Ring and sign in to Steam with the account you used for the earlier playthrough. In **Convergence**, select the preset and set **Include Seamless Co-op** to match that playthrough.
+2. Choose **Recover existing characters** and review the filename and last saved date. Choose **Copy this save**. Modlane copies the full save for this mode and keeps your earlier file and the original Modlane preset save available separately.
+3. Choose **Launch Modded** and then **Continue** or **Load Game**. The Convergence tab shows which saves you’re using and lets you switch back to **Use original preset saves**. Your friend can follow these steps on their own PC using their own Steam account.
+
 ## Include Seamless Co-op
 
-Open the **Seamless Co-op** tab. **Ready** means Modlane already has the supported **2.0.2** ZIP for regular mods, Convergence and Reforged. **Check saved download** reuses an archive already in Modlane. If it is missing, choose **Open Seamless Co-op files** and complete the normal Nexus download, or choose the official ZIP you already have. A Co-op copy in a linked Convergence folder stays separate from Modlane’s shared copy. [Official Seamless Co-op file](https://www.nexusmods.com/eldenring/mods/510?tab=files&file_id=52792)
+In **Presets** or the relevant overhaul tab, tick **Include Seamless Co-op**. **Ready** means Modlane already has the supported **2.0.2** ZIP. **Check saved download** reuses an archive already in Modlane. If it is missing, choose **Download Seamless Co-op** and complete the normal Nexus download, or choose the official ZIP you already have. A Co-op copy in a linked Convergence folder stays separate from Modlane’s shared copy. [Official Seamless Co-op file](https://www.nexusmods.com/eldenring/mods/510?tab=files&file_id=52792)
 
 For regular mods or Convergence, tick **Include Seamless Co-op** and open **Set co-op password**. The saved password is visible. **Copy** puts it on your clipboard to share, and **Paste** puts a friend’s password into the field. Choose **Save password** to use it for this preset and mode. **Configure co-op options** covers invasions, Rot Essence, summons, spectating, overhead display, startup logos, Steam IDs, volume, language and six scaling values. The host's settings govern invasions, scaling, Rot Essence and summons. Everyone needs the same supported versions and session password. Modlane handles separate preview save names. [Seamless Co-op configuration guide](https://ersc-docs.github.io/seamless-modding/)
 
@@ -50,7 +56,7 @@ Open **Reforged → Download Reforged** for the full **2.3.8.1** ZIP (3.59 GB). 
 
 Choose **EldenVins → Download EldenVins 1.9.1** and finish the download on Nexus. **Show saved archive** opens its location in Windows. The full release is about 4.4 GiB. [Official EldenVins file](https://www.nexusmods.com/eldenring/mods/4709?tab=files&file_id=50309)
 
-EldenVins 1.9.1 uses Mod Engine 3 and has a bundled installer. The published Seamless Co-op steps refer to an older launcher. Automatic installation, launch and Co-op setup are pending a check of the bundled profile and installer files. [Author’s setup guide](https://www.nexusmods.com/eldenring/mods/4709?file_id=33348)
+EldenVins 1.9.1 uses Mod Engine 3 and has a bundled installer. The published Seamless Co-op steps refer to an older launcher. You can save the preset’s EldenVins Co-op options now. Automatic installation and Co-op launch are pending a check of the bundled profile and installer files. [Author’s setup guide](https://www.nexusmods.com/eldenring/mods/4709?file_id=33348)
 
 ## First game checks
 

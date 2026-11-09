@@ -7,6 +7,10 @@ A Windows companion for finding Nexus mods, organising downloads, inspecting exi
 Choose the **Modlane-x.y.z-x64.exe** installer for normal use. The ZIP is a portable copy. The `.modlane-update` file and `modlane-release.json` are used by the installed app's updater.
 
 
+## Recover Convergence characters — 0.3.36
+
+In **Convergence**, choose **Recover existing characters** to copy an earlier solo or Co-op save into your preset. Seamless Co-op setup is in **Presets** and the overhaul tabs. [Elden Ring guide](ELDEN_RING_SUPPORT.md#recover-existing-characters)
+
 ## Use an existing Convergence folder — 0.3.35
 
 In **Convergence**, choose **Use this folder in place** to reuse an installation on another drive. The clean copy option also works when the mod library is on a separate drive. The dedicated **EldenVins** tab saves the full 1.9.1 download. Installation and Co-op launch are pending a check of the bundled files. [Elden Ring guide](ELDEN_RING_SUPPORT.md)
