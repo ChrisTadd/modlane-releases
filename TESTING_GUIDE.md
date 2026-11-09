@@ -1,7 +1,11 @@
 # Modlane — current tester guide
 
-9 November 2026 · Modlane 0.3.38 · Windows x64 testing beta
+9 November 2026 · Modlane 0.3.39 · Windows x64 testing beta
 
+
+## The Sims 4 mixed mods folders — 0.3.39
+
+Choose **Check again** on your selected Sims 4 folder. **Launch custom mods** handles extracted packages, script mods and My Library content together. [Sims 4 guide](SIMS4_SUPPORT.md)
 
 ## Resume EldenVins setup — 0.3.38
 
