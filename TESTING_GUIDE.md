@@ -3,6 +3,10 @@
 8 November 2026 · Modlane 0.3.33 · Windows x64 testing beta
 
 
+## Use an existing Convergence folder — 0.3.35
+
+In **Convergence**, choose **Use this folder in place → Allow and use this folder** for your linked installation on another drive. Launch the preset with a fresh character. In **EldenVins**, try the Nexus download and check that **Show saved archive** opens the file location. [Elden Ring guide](ELDEN_RING_SUPPORT.md)
+
 ## Copy a clean Convergence setup — 0.3.34
 
 Choose **Convergence → Review copy to game drive → Copy Convergence files** to use the verified official files from an existing folder. Modlane leaves its logs, add-ons and Co-op files in place. If an in-place launch finds extras, it offers **Review clean copy**. [Convergence guide](ELDEN_RING_SUPPORT.md#the-convergence)

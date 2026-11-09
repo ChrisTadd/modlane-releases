@@ -27,7 +27,7 @@ For supported shared assets, put the preferred mod first in the priority list. T
 Open **Convergence** and choose **Use Convergence for this preset**. The preview supports the official **3.0.4.1** files with Elden Ring **1.17.2** and **Shadow of the Erdtree**. [Convergence changelog](https://wiki.convergencemod.com/wiki/Gameplay)
 
 1. Use **Add existing Convergence folder** and choose the folder containing the mod’s launcher or its `mod` and `me3` folders. Modlane can reuse a single previously linked installation when no Modlane setup folder is selected.
-2. On the same drive as Elden Ring, choose **Launch Modded**. If the linked folder contains extras, choose **Review clean copy** when prompted. On another drive, choose **Review copy to game drive**. Choose **Copy Convergence files** to copy only the verified official files. Your original folder keeps its logs, add-ons and Co-op settings. Required files that have changed still need the official launcher’s repair.
+2. On another drive, choose **Use this folder in place → Allow and use this folder**. Then choose **Launch Modded**. Modlane keeps its own settings in the library. Convergence itself may write logs during play. Recognised logs and backup leftovers can stay. If Modlane finds an unrecognised add-on, choose **Review clean copy** to copy the verified official files. Required files that have changed still need the official launcher’s repair.
 3. If your installed version is older, choose **Update Convergence → Open official launcher**. Modlane downloads and checks the Windows launcher the first time. Use **Copy folder path** to copy your linked installation’s location. In the launcher, choose **Select existing installation**, select that folder, and apply the update to **3.0.4.1**. Return to Modlane and choose **Check folder again**. For a fresh installation, expand **Set up a separate copy** and choose **Create fresh Convergence folder**. The update dialog also offers **Open official release in browser**. [Official Convergence Launcher](https://github.com/The-Convergence-Team/ConvergenceER-Public/releases/latest)
 
 Modlane uses the verified base overhaul and its built-in requirements. It creates its own preview saves and, when enabled, uses the shared Seamless Co-op download with your preset’s settings. The existing installation’s Co-op files and settings stay separate.
@@ -45,6 +45,12 @@ Open **Reforged → Download Reforged** for the full **2.3.8.1** ZIP (3.59 GB). 
 1. Choose **Use Reforged for this preset** and tick **Include Seamless Co-op**. A **Ready** status means your existing Co-op download can be reused.
 2. Choose **Set co-op password**, enter or paste the group password, and save it. Select the same in-game difficulty as your friends before joining a session. Reforged’s Seamless Co-op route keeps invasions off and uses Reforged’s `.err` saves.
 3. Choose **Launch Modded**. If the official launcher opens **ELDEN RING Reforged Settings**, press **Esc** to leave it with the defaults and follow any save prompt. **Online mode** in that menu is for Reforged’s own multiplayer service. Seamless uses the **Offline or Seamless** launcher. [Reforged multiplayer guide](https://err.fandom.com/wiki/Multiplayer)
+
+## EldenVins
+
+Choose **EldenVins → Download EldenVins 1.9.1** and finish the download on Nexus. **Show saved archive** opens its location in Windows. The full release is about 4.4 GiB. [Official EldenVins file](https://www.nexusmods.com/eldenring/mods/4709?tab=files&file_id=50309)
+
+EldenVins 1.9.1 uses Mod Engine 3 and has a bundled installer. The published Seamless Co-op steps refer to an older launcher. Automatic installation, launch and Co-op setup are pending a check of the bundled profile and installer files. [Author’s setup guide](https://www.nexusmods.com/eldenring/mods/4709?file_id=33348)
 
 ## First game checks
 

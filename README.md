@@ -7,6 +7,10 @@ A Windows companion for finding Nexus mods, organising downloads, inspecting exi
 Choose the **Modlane-x.y.z-x64.exe** installer for normal use. The ZIP is a portable copy. The `.modlane-update` file and `modlane-release.json` are used by the installed app's updater.
 
 
+## Use an existing Convergence folder — 0.3.35
+
+In **Convergence**, choose **Use this folder in place** to reuse an installation on another drive. The clean copy option also works when the mod library is on a separate drive. The dedicated **EldenVins** tab saves the full 1.9.1 download. Installation and Co-op launch are pending a check of the bundled files. [Elden Ring guide](ELDEN_RING_SUPPORT.md)
+
 ## Copy a clean Convergence setup — 0.3.34
 
 Choose **Convergence → Review copy to game drive → Copy Convergence files** to use the verified official files from an existing folder. Modlane leaves its logs, add-ons and Co-op files in place. If an in-place launch finds extras, it offers **Review clean copy**. [Convergence guide](ELDEN_RING_SUPPORT.md#the-convergence)
