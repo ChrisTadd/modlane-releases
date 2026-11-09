@@ -3,6 +3,10 @@
 8 November 2026 · Modlane 0.3.33 · Windows x64 testing beta
 
 
+## Copy a clean Convergence setup — 0.3.34
+
+Choose **Convergence → Review copy to game drive → Copy Convergence files** to use the verified official files from an existing folder. Modlane leaves its logs, add-ons and Co-op files in place. If an in-place launch finds extras, it offers **Review clean copy**. [Convergence guide](ELDEN_RING_SUPPORT.md#the-convergence)
+
 ## Preset shortcuts — 0.3.33
 
 Open a game with two presets and choose one from the **Preset** dropdown beside **Launch Modded**. After launching it once, close the game, select the other preset and return to **Your games**. **Launch Modded** on the game card should use the earlier preset and still perform the usual checks. Try both Grid and List and confirm the choice survives restarting Modlane. Cards without a recorded modded launch in 0.3.33 or later stay greyed out.

@@ -7,6 +7,10 @@
 5. Later releases are available in Settings → Updates → Check for updates → Download update → Restart & update. Versions before 0.3.15 call this App updates. Portable copies use the new portable ZIP.
 
 
+## Copy a clean Convergence setup — 0.3.34
+
+Choose **Convergence → Review copy to game drive → Copy Convergence files** to use the verified official files from an existing folder. Modlane leaves its logs, add-ons and Co-op files in place. If an in-place launch finds extras, it offers **Review clean copy**. [Convergence guide](ELDEN_RING_SUPPORT.md#the-convergence)
+
 ## Preset shortcuts — 0.3.33
 
 Use the **Preset** dropdown next to **Launch Modded** on a supported game’s page. After the first modded launch from 0.3.33 onward, the game card can launch that game’s last used preset. Find the button at the bottom in Grid or just left of Favourite in List. [Try the preset shortcuts](TESTING_GUIDE.md#preset-shortcuts--0333)
