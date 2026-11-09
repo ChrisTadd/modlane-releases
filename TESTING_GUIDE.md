@@ -1,7 +1,11 @@
 # Modlane — current tester guide
 
-8 November 2026 · Modlane 0.3.33 · Windows x64 testing beta
+9 November 2026 · Modlane 0.3.38 · Windows x64 testing beta
 
+
+## Resume EldenVins setup — 0.3.38
+
+After updating, choose **EldenVins → Finish EldenVins setup** if extraction already finished. Check that the tab becomes ready to launch without downloading or unpacking again. Launch the preset and check that the custom menu images load. [EldenVins guide](ELDEN_RING_SUPPORT.md#eldenvins)
 
 ## Play EldenVins solo or with friends — 0.3.37
 
