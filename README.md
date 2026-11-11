@@ -7,6 +7,10 @@ A Windows companion for finding Nexus mods, organising downloads, inspecting exi
 Choose the **Modlane-x.y.z-x64.exe** installer for normal use. The ZIP is a portable copy. The `.modlane-update` file and `modlane-release.json` are used by the installed app's updater.
 
 
+## Check Elden Ring mod updates — 0.3.40
+
+Choose **Elden Ring → Mod Updates → Check all mods** to check your regular preset mods and all four dedicated setups together. Review exact Nexus replacements and follow the official Convergence launcher instructions when needed. [Elden Ring guide](ELDEN_RING_SUPPORT.md#check-for-mod-updates)
+
 ## The Sims 4 mixed mods folders — 0.3.39
 
 Choose **Check again** on your selected Sims 4 folder. **Launch custom mods** handles extracted packages, script mods and My Library content together. [Sims 4 guide](SIMS4_SUPPORT.md)

@@ -60,6 +60,14 @@ Open **Reforged → Download Reforged** for the full **2.3.8.1** ZIP (3.59 GB). 
 
 The optional camera, FPS and other game-folder loader add-ons are outside this preview. The author recommends Borderless Window, ray tracing off, and English or Spanish (Spain) for the custom text. [Author’s setup guide](https://www.nexusmods.com/eldenring/mods/4709?file_id=33348)
 
+## Check for mod updates
+
+1. Open **Elden Ring → Mod Updates → Check all mods**. The check covers the mods used by your regular presets, detected external mods with Nexus identities, and the four dedicated setups.
+2. For an exact Nexus replacement, choose **Review update**, check the requirements, then choose **Download update**. Complete the normal Nexus click if asked. When the archive is ready, choose **Review preset changes → Use update in these presets**. This replaces the exact old file in the listed editable presets and retains your earlier archive and preset saves. Shared presets keep their pinned files.
+3. Follow the action beside each dedicated setup. For **The Convergence**, use **Check with official launcher** and follow the folder instructions. If a new release requires Modlane support, its author’s page or launcher is available for review. Check again after the mod author or Modlane publishes an update.
+
+An available update describes the release you can get. Modlane checks launch requirements separately for the Steam installation and selected preset.
+
 ## First game checks
 
 1. With a clean Steam setup, launch a preset containing one small visual mod. Check its effect with a fresh character, quit, and relaunch the preset to check that character appears again.

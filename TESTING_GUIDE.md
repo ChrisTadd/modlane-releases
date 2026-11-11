@@ -1,7 +1,11 @@
 # Modlane — current tester guide
 
-9 November 2026 · Modlane 0.3.39 · Windows x64 testing beta
+11 November 2026 · Modlane 0.3.40 · Windows x64 testing beta
 
+
+## Check Elden Ring mod updates — 0.3.40
+
+Open **Elden Ring → Mod Updates → Check all mods**. Check the four dedicated rows and mods used in your regular presets. If an exact replacement appears, download it and confirm the listed presets in **Review preset changes**. For Convergence, check the official launcher instructions. [Elden Ring guide](ELDEN_RING_SUPPORT.md#check-for-mod-updates)
 
 ## The Sims 4 mixed mods folders — 0.3.39
 
