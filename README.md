@@ -7,6 +7,10 @@ A Windows companion for finding Nexus mods, organising downloads, inspecting exi
 Choose the **Modlane-x.y.z-x64.exe** installer for normal use. The ZIP is a portable copy. The `.modlane-update` file and `modlane-release.json` are used by the installed app's updater.
 
 
+## Clean mod-check results — 0.3.43
+
+Choose **Check for updates** in a game header. When the check verifies that every tracked mod is current, **All good** appears above the button. See **My Mods** for individual updates. The Sims 4 keeps its local folder and settings check.
+
 ## Compact game headers — 0.3.42
 
 The preset dropdown sits beside the launch buttons. Available shared tabs appear in a consistent order, and Elden Ring's three extra tabs stay on the Elden Ring page. The Sims 4 keeps its Custom mods workflow. [Elden Ring guide](ELDEN_RING_SUPPORT.md)
