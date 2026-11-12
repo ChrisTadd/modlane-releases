@@ -7,6 +7,10 @@ A Windows companion for finding Nexus mods, organising downloads, inspecting exi
 Choose the **Modlane-x.y.z-x64.exe** installer for normal use. The ZIP is a portable copy. The `.modlane-update` file and `modlane-release.json` are used by the installed app's updater.
 
 
+## RimWorld mod presets - 0.3.44
+
+Link RimWorld on Windows, then download a mod and its requirements from Nexus. Use **Presets** to choose the mods for a colony and **Launch Modded** to check the load order and play. **Check for updates** uses exact Nexus file history. Each preset and **Launch Vanilla** have separate saves. [RimWorld setup and test guide](RIMWORLD_SUPPORT.md)
+
 ## Clean mod-check results — 0.3.43
 
 Choose **Check for updates** in a game header. When the check verifies that every tracked mod is current, **All good** appears above the button. See **My Mods** for individual updates. The Sims 4 keeps its local folder and settings check.

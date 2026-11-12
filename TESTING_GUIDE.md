@@ -1,7 +1,14 @@
 # Modlane — current tester guide
 
-12 November 2026 · Modlane 0.3.41 · Windows x64 testing beta
+12 November 2026 · Modlane 0.3.44 · Windows x64 testing beta
 
+
+## RimWorld mod presets - 0.3.44
+
+1. Link the Windows installation. Download a mod and its required library from Nexus. Open **Presets → Review & apply → Show load order** and verify both are listed in the author's required order.
+2. Choose **Launch Modded**. Verify the active Mods list and the archive's effect in a fresh colony. Save, quit and relaunch the same preset to reload it.
+3. Quit and choose **Launch Vanilla**. Verify only Core and installed DLC are active and the modded colony is absent from Load Game. Quit and switch back to the same modded preset to verify the colony is still there. [RimWorld guide](RIMWORLD_SUPPORT.md)
+4. Choose **Check for updates**. Verify the result and review any matching Nexus replacements in **My Mods**.
 
 ## Simplify Elden Ring updates — 0.3.41
 

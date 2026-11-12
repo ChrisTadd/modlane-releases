@@ -7,6 +7,10 @@
 5. Later releases are available in Settings → Updates → Check for updates → Download update → Restart & update. Versions before 0.3.15 call this App updates. Portable copies use the new portable ZIP.
 
 
+## RimWorld mod presets - 0.3.44
+
+Link RimWorld on Windows, then download a mod and its requirements from Nexus. Use **Presets** to choose the mods for a colony and **Launch Modded** to check the load order and play. **Check for updates** uses exact Nexus file history. Each preset and **Launch Vanilla** have separate saves. [RimWorld setup and test guide](RIMWORLD_SUPPORT.md)
+
 ## Copy a clean Convergence setup — 0.3.34
 
 Choose **Convergence → Review copy to game drive → Copy Convergence files** to use the verified official files from an existing folder. Modlane leaves its logs, add-ons and Co-op files in place. If an in-place launch finds extras, it offers **Review clean copy**. [Convergence guide](ELDEN_RING_SUPPORT.md#the-convergence)
