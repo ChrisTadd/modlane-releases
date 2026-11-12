@@ -40,7 +40,7 @@ Modlane uses the verified base overhaul and its built-in requirements. It create
 
 ## Include Seamless Co-op
 
-In **Presets** or the relevant overhaul tab, tick **Include Seamless Co-op**. **Ready** means Modlane already has the supported **2.0.2** ZIP. **Check saved download** reuses an archive already in Modlane. If it is missing, choose **Download Seamless Co-op** and complete the normal Nexus download, or choose the official ZIP you already have. A Co-op copy in a linked Convergence folder stays separate from Modlane’s shared copy. [Official Seamless Co-op file](https://www.nexusmods.com/eldenring/mods/510?tab=files&file_id=52792)
+In **Presets** or the relevant overhaul tab, tick **Include Seamless Co-op**. **Download Seamless Co-op** or **Update Seamless Co-op** fetches and verifies the author’s **2.0.3** ZIP directly. You can also use a matching official ZIP you already have. Modlane shares the prepared download across its setups. A linked Convergence folder can have its own separate Co-op copy. [Official Seamless Co-op 2.0.3](https://github.com/yuiamoroll/EldenRingSeamlessCoopRelease/releases/tag/v2.0.3)
 
 For regular mods or Convergence, tick **Include Seamless Co-op** and open **Set co-op password**. The saved password is visible. **Copy** puts it on your clipboard to share, and **Paste** puts a friend’s password into the field. Choose **Save password** to use it for this preset and mode. **Configure co-op options** covers invasions, Rot Essence, summons, spectating, overhead display, startup logos, Steam IDs, volume, language and six scaling values. The host's settings govern invasions, scaling, Rot Essence and summons. Everyone needs the same supported versions and session password. Modlane handles separate preview save names. [Seamless Co-op configuration guide](https://ersc-docs.github.io/seamless-modding/)
 
@@ -62,9 +62,23 @@ The optional camera, FPS and other game-folder loader add-ons are outside this p
 
 ## Check for mod updates
 
-1. Open **Elden Ring → Mod Updates → Check all mods**. The check covers the mods used by your regular presets, detected external mods with Nexus identities, and the four dedicated setups.
-2. For an exact Nexus replacement, choose **Review update**, check the requirements, then choose **Download update**. Complete the normal Nexus click if asked. When the archive is ready, choose **Review preset changes → Use update in these presets**. This replaces the exact old file in the listed editable presets and retains your earlier archive and preset saves. Shared presets keep their pinned files.
-3. Follow the action beside each dedicated setup. For **The Convergence**, use **Check with official launcher** and follow the folder instructions. If a new release requires Modlane support, its author’s page or launcher is available for review. Check again after the mod author or Modlane publishes an update.
+1. Choose **Check for updates** at the top of the Elden Ring page. A clean check shows **All good**. A dialog lists updates and items that need review.
+2. For a regular mod, choose **Review update → Download update** and complete the Nexus click if asked. After the download, check again and choose **Review preset changes → Use update in these presets**. Modlane removes the unused older library files after switching the listed presets. Pinned versions and changed files are kept.
+3. Choose **Update Seamless Co-op** to use the verified official release. For **The Convergence**, use **Check with official launcher** and follow the folder instructions. Reforged and EldenVins show their setup or author link when action is needed.
+
+My Mods groups bundled DLLs under the detected overhaul folder. Expand **Files and detection evidence** on the parent to see the components Modlane identified.
+
+| Bundled component | What it does | Included with |
+| --- | --- | --- |
+| `unlock_wwise_states_er.dll` | Enables custom music states | The Convergence |
+| `er_torrent_skin_slots.dll` | Supports additional Torrent appearances | The Convergence and EldenVins |
+| `Scripts-Data-Exposer-FS.dll` | Gives game scripts access to additional functions and data | The Convergence and EldenVins |
+| `ertransmogrify.dll` | Changes armour appearance independently of equipped stats | The Convergence |
+| `erdyes.dll` | Adds armour dyes | The Convergence |
+| `ErdTools.dll` | Provides runtime tools and functions for the overhaul | The Convergence and EldenVins |
+| `eldenring_alt_saves.dll` | Gives the modded playthrough a separate save file | Older Convergence releases |
+
+[Convergence’s official profile](https://github.com/The-Convergence-Team/ConvergenceER-Public/blob/main/PublicRelease/me3/convergence.me3) · [Older Convergence manifest](https://github.com/The-Convergence-Team/ConvergenceER-Public/blob/main/DownloaderContent/manifest.json) · [EldenVins release](https://www.nexusmods.com/eldenring/mods/4709?tab=files)
 
 An available update describes the release you can get. Modlane checks launch requirements separately for the Steam installation and selected preset.
 

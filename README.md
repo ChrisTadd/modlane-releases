@@ -7,6 +7,10 @@ A Windows companion for finding Nexus mods, organising downloads, inspecting exi
 Choose the **Modlane-x.y.z-x64.exe** installer for normal use. The ZIP is a portable copy. The `.modlane-update` file and `modlane-release.json` are used by the installed app's updater.
 
 
+## Simplify Elden Ring updates — 0.3.41
+
+Choose **Check for updates** at the top of the Elden Ring page. Check the action dialog or **All good**. Choose **Update Seamless Co-op** for 2.0.3. Modlane removes unused superseded library files after the replacement is ready. [Elden Ring guide](ELDEN_RING_SUPPORT.md#check-for-mod-updates)
+
 ## Check Elden Ring mod updates — 0.3.40
 
 Choose **Elden Ring → Mod Updates → Check all mods** to check your regular preset mods and all four dedicated setups together. Review exact Nexus replacements and follow the official Convergence launcher instructions when needed. [Elden Ring guide](ELDEN_RING_SUPPORT.md#check-for-mod-updates)

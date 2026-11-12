@@ -1,7 +1,11 @@
 # Modlane — current tester guide
 
-11 November 2026 · Modlane 0.3.40 · Windows x64 testing beta
+12 November 2026 · Modlane 0.3.41 · Windows x64 testing beta
 
+
+## Simplify Elden Ring updates — 0.3.41
+
+Choose **Check for updates** at the top of the Elden Ring page. Check the action dialog or **All good**. Choose **Update Seamless Co-op** for 2.0.3. Modlane removes unused superseded library files after the replacement is ready. [Elden Ring guide](ELDEN_RING_SUPPORT.md#check-for-mod-updates)
 
 ## Check Elden Ring mod updates — 0.3.40
 
