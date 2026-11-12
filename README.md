@@ -7,6 +7,10 @@ A Windows companion for finding Nexus mods, organising downloads, inspecting exi
 Choose the **Modlane-x.y.z-x64.exe** installer for normal use. The ZIP is a portable copy. The `.modlane-update` file and `modlane-release.json` are used by the installed app's updater.
 
 
+## Compact game headers — 0.3.42
+
+The preset dropdown sits beside the launch buttons. Available shared tabs appear in a consistent order, and Elden Ring's three extra tabs stay on the Elden Ring page. The Sims 4 keeps its Custom mods workflow. [Elden Ring guide](ELDEN_RING_SUPPORT.md)
+
 ## Simplify Elden Ring updates — 0.3.41
 
 Choose **Check for updates** at the top of the Elden Ring page. Check the action dialog or **All good**. Choose **Update Seamless Co-op** for 2.0.3. Modlane removes unused superseded library files after the replacement is ready. [Elden Ring guide](ELDEN_RING_SUPPORT.md#check-for-mod-updates)

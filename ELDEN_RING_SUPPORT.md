@@ -2,7 +2,7 @@
 
 Use **Elden Ring → Game Setup** on Windows with the worldwide Steam release of Elden Ring **1.17.2**. Keep any existing Convergence or Seamless Co-op playthrough in its own folder.
 
-**Game Setup** is the rightmost tab. Elden Ring opens there until you verify the Steam folder. After verification, reopening the game page takes you to **Browse Mods**.
+**Game Setup** is the last shared tab, before **Convergence**, **Reforged** and **EldenVins**. Elden Ring opens there until you verify the Steam folder. After verification, reopening the game page takes you to **Browse Mods**.
 
 ## Check the Steam folder
 
@@ -62,7 +62,7 @@ The optional camera, FPS and other game-folder loader add-ons are outside this p
 
 ## Check for mod updates
 
-1. Choose **Check for updates** at the top of the Elden Ring page. A clean check shows **All good**. A dialog lists updates and items that need review.
+1. Choose **Check for updates** at the top of the Elden Ring page. A complete clean check shows **All good** above the button. Check again after changing the linked installation or the set of mods being checked. A dialog lists updates and items that need review.
 2. For a regular mod, choose **Review update → Download update** and complete the Nexus click if asked. After the download, check again and choose **Review preset changes → Use update in these presets**. Modlane removes the unused older library files after switching the listed presets. Pinned versions and changed files are kept.
 3. Choose **Update Seamless Co-op** to use the verified official release. For **The Convergence**, use **Check with official launcher** and follow the folder instructions. Reforged and EldenVins show their setup or author link when action is needed.
 
