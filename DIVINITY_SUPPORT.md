@@ -64,6 +64,8 @@ The game editions have separate mod catalogues. Use each edition’s files for i
 
 **Malchezzar - Combined Atlases [DE]** is required by Bonus Uniques. Use the author's Workshop page. [Combined Atlases on Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=3274614338)
 
+The atlas is also listed under **Main files** on the Bonus Uniques Nexus page. Nexus labels that download **1.7.0.1**, while the saved Bonus Uniques PAK requires the atlas's internal module version **1.13.0.4 or newer**. Modlane checks the actual PAK version after import. [Bonus Uniques files on Nexus](https://www.nexusmods.com/divinityoriginalsin2definitiveedition/mods/265?tab=files)
+
 1. In Steam, subscribe to Combined Atlases and wait for the download.
 2. In the Steam library that holds Divinity, open `steamapps\workshop\content\435150\3274614338`. Copy the `.pak` to a folder outside Steam, such as Downloads.
 3. Unsubscribe from Combined Atlases and let Steam finish removing its Workshop copy. Active Workshop subscriptions can reload mods during startup and block a managed launch.
