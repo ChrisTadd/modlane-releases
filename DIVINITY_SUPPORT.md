@@ -56,3 +56,17 @@ The game editions have separate mod catalogues. Use each edition’s files for i
 1. Update to **Modlane 0.3.25** or later. Quit the game, open the **Definitive Edition** card, and choose **Launch Modded** with your existing preset.
 2. If prompted, choose **Prepare Script Extender** once, then **Launch Modded** again. Modlane reuses the updater already saved for Unique Loot Drops and checks the highest version required by the preset.
 3. Let the updater finish on first launch. Check the extender version at the game’s main menu before loading a save. **Huntsman Class Overhaul 1.3.1** requires **Script Extender 60 or newer**. Keep **OdinCore** in the preset for the Odinblade mods that require it. [Huntsman requirements](https://www.nexusmods.com/divinityoriginalsin2definitiveedition/mods/231?tab=description) · [Norbyte’s updater](https://github.com/Norbyte/ositools/releases/tag/updater_v5)
+
+
+## Resolve Bonus Uniques requirements
+
+**Game Master** comes with Definitive Edition. Modlane checks its version in the installed game and patches. If the review still flags it, update or verify Divinity in Steam and review the preset again.
+
+**Malchezzar - Combined Atlases [DE]** is required by Bonus Uniques. Use the author's Workshop page. [Combined Atlases on Steam Workshop](https://steamcommunity.com/workshop/filedetails/?id=3274614338)
+
+1. In Steam, subscribe to Combined Atlases and wait for the download.
+2. In the Steam library that holds Divinity, open `steamapps\workshop\content\435150\3274614338`. Copy the `.pak` to a folder outside Steam, such as Downloads.
+3. Unsubscribe from Combined Atlases and let Steam finish removing its Workshop copy. Active Workshop subscriptions can reload mods during startup and block a managed launch.
+4. In Modlane, open **Divinity Definitive Edition → Presets → Import mod archive** and select the copied PAK. Add it to your preset if it appears under **Inactive**, then choose **Launch Modded**. Modlane checks the version and places it ahead of Bonus Uniques.
+
+If Steam cannot download the atlas, remove Bonus Uniques from the preset to play with the remaining mods on a separate test save. Its download stays in Modlane.
