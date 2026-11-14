@@ -214,12 +214,12 @@ Long feedback reports use an explicit Copy report & open GitHub step. This repla
 
 ## Default setup (0.3.0)
 
-Each game opens with Default selected. Saved mods seed it once and new successful downloads/prepared imports collect automatically. Inspect Presets to see selected archives and files needing setup. Pending setup/review and ambiguous versions block apply/launch/share; exclude an item to keep it saved without including it. Custom and pinned presets are preserved. Downloads never change game files. Launch Modded retains requirement/conflict review. Read-only/unsupported games have collection only; Skyrim uses Game Setup and automatically proceeds after passing supported launch checks; advanced integrations remain unfinished.
+Each game starts with a preset called Default. New downloads and imports appear under Inactive. Inspect Presets to see selected archives and files needing setup. Pending setup/review and ambiguous versions block apply/launch/share; exclude an item to keep it saved without including it. Custom and pinned presets are preserved. Downloads never change game files. Launch Modded retains requirement/conflict review. Read-only/unsupported games have collection only; Skyrim uses Game Setup and automatically proceeds after passing supported launch checks; advanced integrations remain unfinished.
 
 
 ## Preset selection (0.3.1)
 
-Open a supported game → Presets. In this preset lists selected downloads; Inactive lists other saved/prepared mods for the game. Use Add/Remove; removing only changes that selection. New empty preset starts with zero mods and no copied installer options. Rename custom presets and switch with Selected preset. Default keeps its automatic name/collection role. Shared presets stay pinned; missing exact archives appear with View downloads. Needs setup files stay visible with setup help. Share or import presets is below the lists; Preset help is at the top. Check switching/add/remove/rename and restart persistence before applying. Editing never changes the currently installed game; Review & apply or Launch Modded does that after checks.
+Open a supported game → Presets. In this preset lists selected downloads; Inactive lists other saved/prepared mods for the game. Use Add/Remove; removing only changes that selection. New empty preset starts with zero mods and no copied installer options. Rename custom presets and switch with Selected preset. Default can be renamed. Copy Preset selects an editable copy. Shared presets stay pinned; missing exact archives appear with View downloads. Needs setup files stay visible with setup help. Share or import presets is below the lists; Preset help is at the top. Check switching/add/remove/rename and restart persistence before applying. Editing never changes the currently installed game; Review & apply or Launch Modded does that after checks.
 
 
 ## 0.3.5 compatibility checks
@@ -241,3 +241,11 @@ Only problem mods should be shown. Test mod must prepare and launch the mod you 
 ## Collection setup (0.3.8)
 
 After updating, open Game Setup: saved archives that older versions rejected retry automatically. Use Set up mods → Use suggested setup to apply author recommendations/defaults together and keep optional extras off. Expand the suggested settings first if desired, or Choose myself. Remaining personal choices appear one question at a time; Continue saves each answer across restart. Shared requirements are grouped for one add/download. These are installation choices, not a required game test for every mod. Launch still checks requirements and compatibility. Check a fresh test character for a substantially changed mod list; custom BodySlide generation and arbitrary external installers are still separate integrations.
+
+
+## Preset editing and guided requirements — 0.3.46
+
+1. Download a mod and open **Presets**. Check that it appears in **Inactive**. Rename Default, copy it, and try search, **Add all** and **Remove all** on the copy.
+2. In a preset with a missing Nexus requirement, open **Review & apply**, choose the correct file and finish the Nexus click. Confirm the review opens again and shows the updated checks.
+3. For Divinity, follow [Combined Atlases setup](DIVINITY_SUPPORT.md#resolve-bonus-uniques-requirements). In **Browse Mods**, change the page size and check that the next page starts at the right offset.
+4. In **Settings → Advanced**, enable **Dev mode** and trigger a validation error, such as creating a preset without a name. Open and copy the error log. In **Updates**, check the GitHub release link and **Advanced update options**.

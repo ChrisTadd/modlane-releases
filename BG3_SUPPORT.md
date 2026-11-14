@@ -18,7 +18,7 @@ Keep Steam online. Close BG3 and other mod managers before switching. Use a **fr
 3. Resolve missing dependencies. Prepare official Script Extender if offered.
 4. Choose **Launch Modded** and follow its short account check.
 
-Downloads still collect in Default; your new preset stays a separate choice. Existing collection copies are hidden from the available-mod list by default. Search finds saved mods. **Show existing collection** reveals the copies. Selected entries always remain visible. **Remove existing copies from preset** clears those selections and keeps every download.
+New downloads appear in Inactive until you select them. Existing collection copies are hidden from the available-mod list by default. Search finds saved mods. **Show existing collection** reveals the copies. Selected entries always remain visible. **Remove existing copies from preset** clears those selections and keeps every download.
 
 Hiding entries changes the view only. **Move existing mods aside** actually moves the whole live Mods folder outside BG3’s watched folders, without uninstalling it. **Restore in-game mods** brings it back without launching. Launch Vanilla also restores it. While mods are moved aside, use Modlane to choose the setup before starting BG3 from elsewhere.
 

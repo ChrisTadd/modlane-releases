@@ -66,9 +66,9 @@ The game editions have separate mod catalogues. Use each edition’s files for i
 
 The atlas is also listed under **Main files** on the Bonus Uniques Nexus page. Nexus labels that download **1.7.0.1**, while the saved Bonus Uniques PAK requires the atlas's internal module version **1.13.0.4 or newer**. Modlane checks the actual PAK version after import. [Bonus Uniques files on Nexus](https://www.nexusmods.com/divinityoriginalsin2definitiveedition/mods/265?tab=files)
 
-1. In Steam, subscribe to Combined Atlases and wait for the download.
-2. In the Steam library that holds Divinity, open `steamapps\workshop\content\435150\3274614338`. Copy the `.pak` to a folder outside Steam, such as Downloads.
-3. Unsubscribe from Combined Atlases and let Steam finish removing its Workshop copy. Active Workshop subscriptions can reload mods during startup and block a managed launch.
-4. In Modlane, open **Divinity Definitive Edition → Presets → Import mod archive** and select the copied PAK. Add it to your preset if it appears under **Inactive**, then choose **Launch Modded**. Modlane checks the version and places it ahead of Bonus Uniques.
+1. Open **Divinity Definitive Edition → Presets → Review & apply → Set up Combined Atlases**.
+2. Use **Open Steam Workshop**, subscribe to Combined Atlases and wait for Steam Downloads to finish.
+3. Choose **Copy from Steam**. Modlane checks the PAK and adds a copy to this preset. You can use **Open Workshop folder** to find the file and **Choose PAK** to import a copy yourself.
+4. Unsubscribe in Steam, wait for Steam to finish, then choose **Recheck and apply**. Modlane loads the atlas ahead of Bonus Uniques.
 
 If Steam cannot download the atlas, remove Bonus Uniques from the preset to play with the remaining mods on a separate test save. Its download stays in Modlane.

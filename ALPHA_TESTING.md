@@ -91,7 +91,7 @@ Long feedback reports use an explicit Copy report & open GitHub step. This repla
 
 ## Default setup (0.2.12)
 
-Each game opens with Default selected. Saved mods seed it once and new successful downloads/prepared imports collect automatically. Inspect Presets to see selected archives and files needing setup. Pending setup/review and ambiguous versions block apply/launch/share; exclude an item to keep it saved without including it. Custom and pinned presets are preserved. Downloads never change game files. Launch Modded retains requirement/conflict review. Read-only/unsupported games have collection only; Skyrim now uses Game Setup and automatically proceeds after passing supported launch checks; advanced integrations remain unfinished.
+Each game starts with a preset called Default. New downloads and imports appear under Inactive. Inspect Presets to see selected archives and files needing setup. Pending setup/review and ambiguous versions block apply/launch/share; exclude an item to keep it saved without including it. Custom and pinned presets are preserved. Downloads never change game files. Launch Modded retains requirement/conflict review. Read-only/unsupported games have collection only; Skyrim now uses Game Setup and automatically proceeds after passing supported launch checks; advanced integrations remain unfinished.
 
 
 ## Skyrim 0.3.0 testing
@@ -101,7 +101,7 @@ Start with a fresh test character and a small preset. Game Setup shows runtime, 
 
 ## Easier preset editing (0.3.1)
 
-Game → Presets shows **In this preset** and **Inactive**. Use Add/Remove to choose from downloads for this game. New empty preset starts clean; Rename edits a custom name and Selected preset switches setups. Default collects downloads automatically and keeps its name. Files needing setup remain visible with help. Edits do not apply/uninstall files or delete downloads; apply or launch when ready. Share/import controls are below the lists and Preset help is at the top.
+Game → Presets shows **In this preset** and **Inactive**. Use Add/Remove to choose from downloads for this game. New empty preset starts clean; Rename edits a custom name and Selected preset switches setups. New downloads remain inactive until selected. Files needing setup remain visible with help. Edits do not apply/uninstall files or delete downloads; apply or launch when ready. Share/import controls are below the lists and Preset help is at the top.
 
 ## Skyrim setup made simpler (0.3.2)
 
